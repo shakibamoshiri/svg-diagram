@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title">
+    <rect x="0" y="35" width="500" height="40" fill="#CCC"></rect>
+    <text x="250" y="65" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Developers / Services Feedback Loop</text>
+  </g>
+  
+  <g transform="translate(20,100)">
+    <rect x="115" y="0" width="240" height="60" fill="#fff"></rect>
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">Developers</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M370,30 q50,0 50,50 v350 q0,50 -50,50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#000" stroke-width="3" d="M370,30 q50,0 50,50 v250 q0,50 -50,50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#000" stroke-width="3" d="M370,30 q50,0 50,50 v150 q0,50 -50,50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+    <g transform="translate(20,350)">
+    <rect x="110" y="0" width="240" height="60" fill="#fe0"></rect>
+    <text x="230" y="-10" font-size="15" text-anchor="middle" fill="#000" style="font-weight: bold;">Is this service working?</text>
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">Service A</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M95,30 q-50,0 -50,-50 v-150 q0,-50 50,-50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+    <g transform="translate(20,450)">
+    <rect x="110" y="0" width="240" height="60" fill="#fe0"></rect>
+    <text x="230" y="-10" font-size="15" text-anchor="middle" fill="#000" style="font-weight: bold;">Is this service working?</text>
+      
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">Service B</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M95,30 q-50,0 -50,-50 v-250 q0,-50 50,-50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+  <g transform="translate(20,550)">
+    <rect x="110" y="0" width="240" height="60" fill="#fe0"></rect>
+    <text x="230" y="-10" font-size="15" text-anchor="middle" fill="#000" style="font-weight: bold;">Is this service working?</text>
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">Service C</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M95,30 q-50,0 -50,-50 v-350 q0,-50 50,-50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-07-06</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>

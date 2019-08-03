@@ -1,0 +1,12 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" font-family="Montserrat">
+	<rect x="0" y="0" width="500px" height="500px" fill="#0cf"></rect>
+	
+	<rect x="90" y="190" fill="#fff" width="320" height="100" rx="15"></rect>
+	<text id="DEV" x="250" y="70" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">NodeJS</text>
+	<text id="DEV" x="250" y="150" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">App Server</text>
+	<text id="DEV" x="250" y="260" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">alongside</text>
+	<text id="DEV" x="250" y="370" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">Apache</text>
+	<text id="DEV" x="250" y="450" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">Web Server</text>
+</svg>
+

@@ -1,0 +1,99 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="500" font-family="Montserrat">  
+
+  <g id="client">
+    <rect x="0" y="0" width="700" height="150" fill="#0cc"></rect>
+    <text x="350" y="55" fill="#000" text-anchor="middle" font-size="30">Request / Response</text>
+  </g>
+  
+  <g id="file_system">
+    <rect x="0" y="400" width="700" height="100" fill="#0cf"></rect>
+    <text x="350" y="475" fill="#" text-anchor="middle" font-size="30">File System / Database</text>
+  </g>
+  
+<!--  <line x1="0" x2="700" y1="150" y2="150" stroke="#000"></line>-->
+<!--  <line x1="0" x2="700" y1="400" y2="400" stroke="#000"></line>-->
+  <g id="apache">
+    <rect x="50" y="200" fill="#9cf" text-anchor="middle" width="150" height="50"></rect>
+    <text x="65" y="235" fill="#000" font-size="30">Apache</text>
+  </g>
+  
+    <defs >
+    <g id="node">
+      <rect  fill="#fe0" text-anchor="middle" width="50" height="50"></rect>
+    <text x="15" y="32" fill="#000" font-size="25" xml:space="preserve">N</text>
+    </g>
+  </defs>
+  
+  <use href="#node" x="350" y="300"></use>
+  <use href="#node" x="430" y="300"></use>
+  <use href="#node" x="520" y="300"></use>
+  <use href="#node" x="600" y="300"></use>
+  <text x="675" y="370" fill="#000" font-size="20" xml:space="preserve" transform="rotate(-90,685,370)">Instance of nodepost</text>
+  <path d="M330,360 l330,0 v-90 h-330 v90" fill="#ccc" fill-opacity="0.3" stroke="#000" stroke-width="1" stroke-dasharray="10" />
+  
+   <g id="root">
+    <rect x="50" y="300" fill="#f80" text-anchor="middle" width="150" height="50"></rect>
+    <text x="70" y="330" fill="#000" font-size="20">homepage</text>
+  </g>
+  
+   <g id="proxy">
+    <rect x="250" y="200" fill="#9cf" text-anchor="middle" width="50" height="150"></rect>
+    <text x="260" y="230" fill="#000" font-size="30" transform="rotate(90,265,230)">p r o x y</text>
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+  </defs>
+  <path d="M75,100 l0,80" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M175,200 l0,-80" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M75,250 l0,30" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M175,300 l0,-30" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M75,350 l0,70 a50,50 0 1,0 100,0 v-50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  
+  <path d="M200,230 l30,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M300,250 l50,0 q10,0 10,10 v30" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M300,240 l130,0 q10,0 10,10 v40" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M300,230 l220,0 q10,0 10,10 v50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M300,220 l300,0 q10,0 10,10 v60" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  
+<!--  <path d="M360,350 l0,70 a10,10 0 1,0 30,0 v-50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />-->
+  <path d="M360,350 l0,70 a10,10 0 1,0 30,0 a15,15 0 1,0 0,1 v-50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M390,300 l0,-180" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="365" y="425" fill="#000" font-size="13">DB</text>
+  
+  <path d="M440,350 l0,70 a10,10 0 1,0 30,0 a15,15 0 1,0 0,1 v-50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M470,300 l0,-180" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="445" y="425" fill="#000" font-size="13">DB</text>
+  
+  <path d="M530,350 l0,70 a10,10 0 1,0 30,0 a15,15 0 1,0 0,1 v-50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M560,300 l0,-180" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="535" y="425" fill="#000" font-size="13">DB</text>
+  
+  <path d="M610,350 l0,70 a10,10 0 1,0 30,0 a15,15 0 1,0 0,1 v-50" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M640,300 l0,-180" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="615" y="425" fill="#000" font-size="13">DB</text>
+  
+  
+  
+  
+  <defs>
+	<pattern id="first" x="0" y="0" width="3.571%" height="4.17%">
+	  <path fill="none" stroke="#000" stroke-width="0.5" d="M0,25 25,25 25,0" />
+	</pattern>
+  </defs>
+  <defs>
+	<pattern id="second" x="0" y="0" width="7.142%" height="8.4%">
+	  <path fill="none" stroke="#F00" stroke-width="1" d="M0,50 50,50 50,0" />
+	</pattern>
+  </defs>
+  <rect  x="0" y="0" width="700" height="600" fill="url(first)"></rect>
+  <rect  x="0" y="0" width="700" height="600" fill="url(second)"></rect>
+  <circle cx="250" cy="225" r="0"></circle>
+
+
+
+</svg>

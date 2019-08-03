@@ -1,0 +1,12 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" font-family="Montserrat">
+	<rect x="0" y="0" width="500px" height="500px" fill="#fe0"></rect>
+	
+	<rect x="50" y="155" fill="#0cf" width="400" height="100" rx="15"></rect>
+<!--	<circle cx="320" cy="450" r="40" fill="#fe0"></circle>-->
+	<text x="250" y="100" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Any Idea/Pattern About</text>
+	<text x="250" y="220" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Dynamic Routing</text>
+	<text x="250" y="340" font-size="35" text-anchor="middle" fill="#000" xml:space="preserve">using</text>
+	<text x="250" y="440" font-size="35" text-anchor="middle" fill="#000" xml:space="preserve">NodeJS and ExpressJS</text>
+</svg>
+

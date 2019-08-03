@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title">
+    <rect x="0" y="35" width="500" height="40" fill="#fe0"></rect>
+    <text x="250" y="65" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Autonomous Team</text>
+  </g>
+  
+  <g transform="translate(100,130)">
+    <rect x="-30" y="-30" width="120" height="110" fill="none" stroke="#000" stroke-width="3"></rect>
+    <circle cx="0" cy="0" r="20" fill="#f80"></circle>
+    <circle cx="50" cy="0" r="20" fill="#0f8"></circle>
+    <circle cx="50" cy="50" r="20" fill="#80f"></circle>
+    <text x="220" y="30" font-size="25" font-weight="bold">product A</text>
+    <line x1="-50" x2="350" y1="100" y2="100" stroke="#000"></line>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,20 h100 " marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <text x="-150" y="50" font-size="15" font-weight="bold" transform="rotate(-90,-80,20)">bounded context</text>
+  </g>
+  <g transform="translate(100,280)">
+    <rect x="-30" y="-30" width="120" height="110" fill="none" stroke="#000" stroke-width="3"></rect>
+    <circle cx="0" cy="0" r="20" fill="#f80"></circle>
+    <circle cx="50" cy="0" r="20" fill="#0f8"></circle>
+    <circle cx="50" cy="50" r="20" fill="#80f"></circle>
+    <text x="220" y="30" font-size="25" font-weight="bold">product B</text>
+    <line x1="-50" x2="350" y1="100" y2="100" stroke="#000"></line>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,20 h100 " marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <text x="-150" y="50" font-size="15" font-weight="bold" transform="rotate(-90,-80,20)">bounded context</text>
+  </g>
+  <g transform="translate(100,430)">
+    <rect x="-30" y="-30" width="120" height="110" fill="none" stroke="#000" stroke-width="3"></rect>
+    <circle cx="0" cy="0" r="20" fill="#f80"></circle>
+    <circle cx="50" cy="0" r="20" fisll="#0f8"></circle>
+    <circle cx="50" cy="50" r="20" fill="#80f"></circle>
+    <text x="220" y="30" font-size="25" font-weight="bold">product C</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,20 h100 " marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <text x="-150" y="50" font-size="15" font-weight="bold" transform="rotate(-90,-80,20)">bounded context</text>
+  </g>
+  <g transform="translate(0,550)">
+    <rect x="60" y="15" width="370" height="50" rx="25"></rect>
+    <text x="250" y="0" font-size="20" fill="#fff" font-weight="bold" text-anchor="middle">Organizing Team Round Bounded Context</text>
+      <text x="250" y="50" font-size="25" fill="#fff" font-weight="bold" text-anchor="middle">Inverse Conway's Maneuver</text>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" style="font-weight: bold">Designer and Creator: Shakiba Moshiri, 2019-07-29</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>

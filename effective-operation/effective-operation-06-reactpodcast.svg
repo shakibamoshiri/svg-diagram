@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="750" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="750" fill="#0cf"></rect>
+
+  <g id="title">
+    <rect x="0" y="0" width="500" height="150" fill="#fff"></rect>
+    <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
+    <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">part 7</text>
+    <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">download from reactpodcast.com</text>
+  </g>
+  
+  <g>
+  <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+  <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">reactpodcast.com</text>
+  <path fill="none" stroke="#000" stroke-width="3" d="M60,200 v410 h50" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+    
+  <g transform="translate(0,80)">
+      <circle cx="60" cy="180" fill="#fff" r="30"></circle>
+      <text x="30" y="190" font-size="25" xml:space="preserve" fill="#000">  for       loop over all pages</text>
+    </g>
+   
+  <g transform="translate(0,150)">
+      <circle cx="60" cy="180" fill="#fff" r="30"></circle>
+      <text x="30" y="190" font-size="25" xml:space="preserve" fill="#000"> curl      get source of a page</text>
+    </g>
+ 
+  <g transform="translate(0,220)">
+      <circle cx="60" cy="180" fill="#fff" r="30"></circle>
+      <text x="30" y="190" font-size="25" xml:space="preserve" fill="#000">grep      find audio file in source</text>
+    </g>
+ <g transform="translate(0,290)">
+      <circle cx="60" cy="180" fill="#fff" r="30"></circle>
+      <text x="30" y="190" font-size="25" xml:space="preserve" fill="#000">uniq      remove repeated links</text>
+    </g>
+
+ <g transform="translate(0,360)">
+      <circle cx="60" cy="180" fill="#fff" r="30"></circle>
+      <text x="30" y="190" font-size="25" xml:space="preserve" fill="#000">xargs     map input to run a command</text>
+    </g>
+
+   <g transform="translate(0,430)">
+      <circle cx="160" cy="180" fill="#fff" r="30"></circle>
+      <text x="130" y="190" font-size="25" xml:space="preserve" fill="#000">wget              download files</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M200,180 h45 v30" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    </g>
+
+
+
+
+
+
+    <g transform="translate(0,490)">
+      <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+      <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">our computer</text>
+    </g>
+
+
+
+
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+              refX="0" refY="3.5" orient="auto">
+        <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+      </marker>
+      <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+        <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+      </marker>
+    </defs>
+
+    <text x="10" y="745" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-25</text>
+    <!--
+first we can use 
+grep -P '[^"]+\.mp3(?=")' html
+but since it print relative path and we need absolute path for downloading them
+we us perl
+perl -lne '/[^"]+\.mp3(?=")/ && print "https://archive.org/download/englishpod_all/$&"' html > links
+or
+grep -Po '[^"]+\.mp3(?=")' html | sed 's@^@https://archive.org/download/englishpod_all/@'
+
+in one line
+curl -sL https://archive.org/download/englishpod_all/ | perl -lne '/[^"]+\.mp3(?=")/ && print "https://archive.org/download/englishpod_all/$&"' > links
+-->
+    </svg>

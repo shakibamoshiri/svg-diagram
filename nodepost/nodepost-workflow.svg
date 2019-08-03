@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 600"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="600" font-family="Montserrat">  
+
+  <text x="365" y="70" font-size="30" text-anchor="middle">NodePost WorkFlow</text>
+
+  <g id="server">
+    <rect x="50" y="150" fill="#9cf" text-anchor="middle" width="150" height="200"></rect>
+    <text x="90" y="215" fill="#000" font-size="20">Server</text>
+    <text x="70" y="255" fill="#000" font-size="20">Initializing ...</text>
+    <text x="230" y="145" fill="#000" font-size="15">call ...</text>
+    <text x="490" y="145" fill="#000" font-size="15">read ...</text>
+    <text x="480" y="210" fill="#000" font-size="15">JSON</text>
+    <text x="210" y="220" fill="#000" font-size="15">posts' title</text>
+    <text x="230" y="290" fill="#000" font-size="15">route</text>
+    <text x="460" y="290" fill="#000" font-size="15">create / delete files or directories</text>
+  </g>
+  
+  <g id="server_running">
+    <rect x="50" y="350" fill="#0cf" text-anchor="middle" width="150" height="100"></rect>
+    <text x="65" y="400" fill="#000" font-size="15">Server Listening</text>
+    <text x="230" y="400" fill="#000" font-size="15">call ...</text>
+    <text x="480" y="400" fill="#000" font-size="15">read ...</text>
+    <text x="480" y="470" fill="#000" font-size="15">data ...</text>
+    <text x="230" y="470" fill="#000" font-size="15">HTML</text>
+  </g>
+  
+  <g id="db_manager">
+    <rect x="300" y="150" fill="#f80" text-anchor="middle" width="150" height="50"></rect>
+    <text x="330" y="180" fill="#000" font-size="15">db-manager</text>
+    <rect x="550" y="150" fill="#f80" text-anchor="middle" width="150" height="50"></rect>
+    <text x="590" y="180" fill="#000" font-size="15">database</text>
+  </g>
+
+  <g id="route_manager">
+    <rect x="300" y="225" fill="#f80" text-anchor="middle" width="150" height="50"></rect>
+    <text x="320" y="256" fill="#000" font-size="15">route-manager</text>
+  </g>
+  
+  <g id="path_manager">
+    <rect x="300" y="300" fill="#f80" text-anchor="middle" width="150" height="150"></rect>
+    <text x="320" y="380" fill="#000" font-size="15">path-manager</text>
+    <rect x="550" y="300" fill="#0cc" text-anchor="middle" width="150" height="150"></rect>
+    <text x="590" y="380" fill="#000" font-size="15">file-system</text>
+    
+    <path d="M75,500 v-50" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    <path d="M175,450 v50" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    <text x="50" y="530" fill="#000" font-size="15">Request / Response</text>
+  </g>
+  
+  <g id="for_server">
+    <path d="M200,160 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    <path d="M550,190 l-100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    <path d="M450,160 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    <path d="M300,190 h-100 a22,22 0 1,0 0,44 h100" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    
+    <!--    <path d="M200,235 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>-->
+    <path d="M300,265 l-100,0 a22,22 0 1,0 0,44 h100" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+    
+<!--    <path d="M200,310 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>-->
+    <path d="M450,310 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+  </g>
+    
+    
+
+    
+
+    
+  <path d="M200,410 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+  <path d="M300,445 l-100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+  <path d="M450,410 l100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+  <path d="M550,445 l-100,0" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)"></path>
+  
+  
+<!--
+  <text x="675" y="370" fill="#000" font-size="20" xml:space="preserve" transform="rotate(-90,685,370)">Instance of nodepost</text>
+  <path d="M330,360 l330,0 v-90 h-330 v90" fill="#ccc" fill-opacity="0.3" stroke="#000" stroke-width="1" stroke-dasharray="10" />
+-->
+  
+
+  
+   <g id="proxy">
+
+  </g>
+  
+
+  
+
+
+  
+  
+  
+  
+  <defs>
+	<pattern id="first" x="0" y="0" width="3.571%" height="4.17%">
+	  <path fill="none" stroke="#000" stroke-width="0.5" d="M0,25 25,25 25,0" />
+	</pattern>
+  </defs>
+  <defs>
+	<pattern id="second" x="0" y="0" width="7.142%" height="8.4%">
+	  <path fill="none" stroke="#F00" stroke-width="1" d="M0,50 50,50 50,0" />
+	</pattern>
+  </defs>
+  <rect  x="0" y="0" width="700" height="600" fill="url(first)"></rect>
+  <rect  x="0" y="0" width="700" height="600" fill="url(second)"></rect>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="6" refX="0" refY="3" orient="auto">
+      <polygon points="0 0, 5 3, 0 6" />
+    </marker>
+  </defs>
+
+
+</svg>

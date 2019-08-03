@@ -1,0 +1,35 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="450" font-family="Montserrat">  
+    <title>nodepost logo</title>
+    <desc>Author: Shakiba Moshiri</desc>
+	<path id="honeycomb" fill="000" stroke="#000" stroke-linejoin="round" stroke-linecap="round" stroke-width="10"
+          d="M200,50 l150,100 v150 l-150,100 l-150,-100 v-150 l150,-100z"></path>
+  
+	<path id="n_sign" fill="#fe0" stroke="#fe0" stroke-linecap="butt" stroke-width="1"
+          d="M100,300 l0,-150 l50,0 v50 q150,-100 150,0 v100 l-50,0 q0,-150 -150,-0z"></path>
+
+
+
+
+
+<!--
+  <defs>
+	<pattern id="first" x="0" y="0" width="5%" height="5%">
+	  <path fill="none" stroke="#000" stroke-width="0.5" d="M0,25 25,25 25,0" />
+	</pattern>
+  </defs>
+  <defs>
+	<pattern id="second" x="0" y="0" width="10%" height="10%">
+	  <path fill="none" stroke="#F00" stroke-width="1" d="M0,50 50,50 50,0" />
+	</pattern>
+  </defs>
+  <rect  x="0" y="0" width="500" height="599" fill="url(#first)"></rect>
+  <rect  x="0" y="0" width="500" height="500" fill="url(second)"></rect>
+  <circle cx="250" cy="225" r="0"></circle>
+-->
+<defs>
+  <style type="text/css"><![CDATA[
+  ]]></style>
+</defs>
+
+</svg>

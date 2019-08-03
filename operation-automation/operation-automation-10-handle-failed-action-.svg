@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title">
+    <rect x="0" y="35" width="500" height="40" fill="#CCC"></rect>
+    <text x="250" y="65" font-size="30" text-anchor="middle" fill="#000" style="font-weight: bold">Handle Failed Action</text>
+  </g>
+  
+  <g transform="translate(20,100)">
+    <rect x="0" y="0" width="460" height="60" fill="#fff"></rect>
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">M o n i t o r i n g</text>
+    <text x="230" y="100" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">High Level Observation</text>
+    <text x="230" y="140" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Non-Detailed Information</text>
+  </g>
+    <g transform="translate(20,270)">
+    <rect x="0" y="0" width="460" height="60" fill="#fff"></rect>
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">L o g g i n g</text>
+    <text x="230" y="100" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Low Level Observation</text>
+    <text x="230" y="140" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Specific-Detailed Information</text>
+  </g>
+  
+    <g transform="translate(20,440)">
+    <rect x="0" y="0" width="460" height="60" fill="#fe0"></rect>
+    <text x="230" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">A l e r t i n g</text>
+    <text x="230" y="100" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Status Change</text>
+    <text x="230" y="140" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Change Notification</text>
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-07-06</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>

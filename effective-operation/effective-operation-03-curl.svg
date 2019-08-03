@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+  
+  <g id="title">
+  <rect x="0" y="0" width="500" height="150" fill="#fff"></rect>
+  <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
+  <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">part 4</text>
+  <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">curl (transform a url)</text>
+  
+  </g>
+    <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">Weather Report</text>
+  <g>
+    
+  <g transform="translate(0,60)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25"  text-anchor="middle" fill="#000">curl -sL wttr.in/Tehran</text>
+  </g>
+  
+
+  
+  <g transform="translate(0,160)">
+    <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">Monitoring</text>
+    </g>
+
+    <g transform="translate(0,220)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25" text-anchor="middle"  fill="#000">curl -sL jsufn.ir/stat</text>
+  </g>
+    
+    <g transform="translate(0,320)">
+    <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25" text-anchor="middle"  fill="#000">Get a Page Source</text>
+  </g>
+    
+    <g transform="translate(0,380)">
+    <rect x="10" y="170" stroke="#000" stroke-width="3" fill="#fff" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="20" text-anchor="middle" fill="#000">curl -sL archive.org/download/englishpod_all/</text>
+  </g>
+    
+    
+
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 19:05:21</text>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>

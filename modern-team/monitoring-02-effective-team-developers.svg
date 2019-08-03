@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#000"></rect>
+
+  <g class="title">
+<!--    <rect x="0" y="35" width="500" height="40" fill="#fe0"></rect>-->
+<!--    <text x="250" y="65" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold"></text>-->
+  </g>
+  
+  <g transform="translate(20,100)">
+    <circle cx="225" cy="150" width="240" r="100" fill="#fff"></circle>
+    <text x="230" y="140" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">You build it,</text>
+    <text x="230" y="180" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold;">you run it.</text>
+<path fill="none" stroke="#fff" stroke-width="3" d="M240,30 a120,120 0 1,1 -30,0" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    
+  </g>
+  <g transform="translate(20,500)">
+    <text x="230" y="0" font-size="30" text-anchor="middle" fill="#fff" style="font-weight: bold;">Werner Vogels</text>
+    <rect x="115" y="25" width="230" height="50" fill="#fe0" rx="25"> </rect>
+    <text x="230" y="60" font-size="20" text-anchor="middle" fill="#000" style="font-weight: bold;">CTO of Amazon</text>
+  </g>
+
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#fff" style="font-weight: bold">Designer and Creator: Shakiba Moshiri, 2019-07-27</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>

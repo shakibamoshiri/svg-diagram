@@ -1,0 +1,36 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="700" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="700" fill="#0cf"></rect>
+
+  <rect x="180" stroke="#000" stroke-width="2" y="50" fill="#fe0" width="150" height="70" rx="15"></rect>
+  <rect x="10" stroke="#000" stroke-width="2" y="200" fill="#fe0" width="480" height="70" rx="15"></rect>
+
+  <rect x="10" stroke="#000" stroke-width="2" y="380" fill="#cc0" width="480" height="300" rx="15"></rect>
+  <rect x="50" stroke="#000" stroke-width="2" y="420" fill="#dd0" width="400" height="225" rx="15"></rect>
+  <rect x="75" stroke="#000" stroke-width="2" y="460" fill="#ee0" width="350" height="145" rx="15"></rect>
+  <rect x="100" stroke="#000" stroke-width="2" y="500" fill="#ff0" width="300" height="70" rx="15"></rect>
+
+
+  <text id="DEV" x="250" y="100" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Scale</text>
+  <text id="DEV" x="250" y="250" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Scalable</text>
+  <text id="DEV" x="250" y="550" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Scalability</text>
+
+
+
+
+
+  <defs>
+    <path d="M75,370 v-250" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+  </defs>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>
+

@@ -1,0 +1,16 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="700" font-family="Montserrat">
+	
+	<rect x="0" y="0" width="600px" height="700px" fill="#ccc"></rect>
+	<rect x="90" y="135" fill="#fff" width="320" height="100" rx="15"></rect>
+	<circle cx="320" cy="450" r="40" fill="#fe0"></circle>
+	
+	<text x="300" y="50" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Effective JavaScript: <tspan fill="#F00">variables</tspan> </text>
+	<line x1="0" stroke="#fe0" stroke-width="5" y1="70" x2="600" y2="70"></line>
+	
+	<text x="250" y="200" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve"></text>
+	<text x="250" y="300" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve">command-line</text>
+	<text x="250" y="380" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve">tools</text>
+	<text x="250" y="470" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve">tip    3e</text>
+</svg>
+

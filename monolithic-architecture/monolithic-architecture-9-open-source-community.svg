@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+ 
+  <g id="agile">
+
+  
+  </g>
+  
+  <g id="vscode">    
+    <circle cx="100" cy="100" stroke="#000" stroke-width="1" r="60" fill="#fff" ></circle>
+    <text x="55" y="105" font-size="25"  fill="#000">vscode</text>
+  </g>
+  
+  <g id="vscode" transform="translate(120,100)">    
+    <circle cx="100" cy="100" stroke="#000" stroke-width="1" r="70" fill="#fff" ></circle>
+    <text x="55" y="105" font-size="25"  fill="#000">Node.js</text>
+  </g>
+  
+  <g id="vscode" transform="translate(300,370)">    
+    <circle cx="100" cy="100" stroke="#000" stroke-width="1" r="40" fill="#fff" ></circle>
+    <text x="70" y="105" font-size="25"  fill="#000">npm</text>
+  </g>
+  <rect width="500" height="60" x="0" y="560" fill="#fff"></rect>
+  <text x="30" y="600" font-size="35" >Open Source Community</text>
+  
+  <g id="vscode" transform="translate(250,10)">    
+    <circle cx="100" cy="100" stroke="#000" stroke-width="1" r="70" fill="#fff" ></circle>
+    <text x="55" y="105" font-size="25"  fill="#000">React.js</text>
+  </g>
+  
+  <g id="vscode" transform="translate(250,210)">    
+    <circle cx="130" cy="100" stroke="#000" stroke-width="1" r="90" fill="#fff" ></circle>
+    <text x="55" y="105" font-size="25"  fill="#000">TensorFlow</text>
+  </g>
+  
+  <g id="vscode" transform="translate(0,200)">    
+    <circle cx="100" cy="100" stroke="#000" stroke-width="1" r="70" fill="#fff" ></circle>
+    <text x="55" y="105" font-size="25"  fill="#000">Ansible</text>
+  </g>
+  
+  <g id="vscode" transform="translate(110,330)">    
+    <circle cx="125" cy="100" stroke="#000" stroke-width="1" r="85" fill="#fff" ></circle>
+    <text x="55" y="105" font-size="25"  fill="#000">Kubernetes</text>
+  </g>
+  
+  <g id="vscode" transform="translate(-50,370)">    
+    <circle cx="125" cy="100" stroke="#000" stroke-width="1" r="65" fill="#fff" ></circle>
+    <text x="75" y="105" font-size="20"  fill="#000">Angular.js</text>
+  </g>
+  
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-11-22:49:28</text>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>

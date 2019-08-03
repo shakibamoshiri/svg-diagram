@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+  
+  <rect x="0" y="10" width="500" height="50" fill="#fe0"></rect>
+  <text x="180" y="45" font-size="30"  fill="#000">Sharing</text>
+  <text x="10" y="115" font-size="20"  fill="#000">1. Increase Consumers</text>
+  <text x="10" y="155" font-size="20"  fill="#000">2. Increase Dependency</text>
+  <text x="10" y="195" font-size="20"  fill="#000">3. Increase Bugs</text>
+  <text x="10" y="235" font-size="20"  fill="#000">4. Growth Rate: Slow</text>
+  <text x="10" y="275" font-size="20"  fill="#000">5. Increase Power</text>
+  <g id="sharing" transform="translate(140,0)">
+    <circle cx="250" cy="170" stroke="#000" stroke-width="1" r="100" fill="#fff" ></circle>
+    <path stroke="#000" fill="none" d="M250,170 h100"></path>
+    <path stroke="#000" fill="none" d="M250,170 h100" transform="rotate(72,250,170)"></path>
+    <path stroke="#000" fill="none" d="M250,170 h100" transform="rotate(144,250,170)"></path>
+    <path stroke="#000" fill="none" d="M250,170 h100" transform="rotate(216,250,170)"></path>
+    <path stroke="#000" fill="none" d="M250,170 h100" transform="rotate(288,250,170)"></path>
+  </g>
+  
+  <g id="sharing_2" transform="translate(50,40)">
+    <circle cx="250" cy="170" stroke="#000" stroke-width="1" r="70" fill="#eee" ></circle>
+    <path stroke="#000" fill="none" d="M250,170 h70" transform="rotate(30,250,170)"></path>
+    <path stroke="#000" fill="none" d="M250,170 h70" transform="rotate(150,250,170)"></path>
+    <path stroke="#000" fill="none" d="M250,170 h70" transform="rotate(270,250,170)"></path>
+  </g>
+  <g id="sharing_3" transform="translate(100,80)">
+    <circle cx="250" cy="170" stroke="#000" stroke-width="1" r="40" fill="#ccc" ></circle>
+  </g>
+  <rect x="0" y="300" width="500" height="50" fill="#fe0"></rect>
+  <text x="150" y="335" font-size="30"  fill="#000">Distributing</text>
+  <text x="10" y="415" font-size="20"  fill="#000">1. Increase Owners</text>
+  <text x="10" y="455" font-size="20"  fill="#000">2. Increase New Idea</text>
+  <text x="10" y="495" font-size="20"  fill="#000">3. Decrease Bugs</text>
+  <text x="10" y="535" font-size="20"  fill="#000">4. Growth Rate: Fast</text>
+  <text x="10" y="575" font-size="20"  fill="#000">5. Increase Freedom</text>
+  <g id="distributing" transform="translate(100,0)">
+    <circle cx="250" cy="500" stroke="#000" stroke-width="1" r="50" fill="#fff" ></circle>
+    <path stroke="#000" fill="#fff" d="M250,450 v-30 a30,30 0 1,1 1,0.1"></path>
+    <path stroke="#000" fill="#fff" d="M250,450 v-30 a30,30 0 1,1 1,0.1" transform="rotate(72,250,500)"></path>
+    <path stroke="#000" fill="#fff" d="M250,450 v-30 a30,30 0 1,1 1,0.1" transform="rotate(144,250,500)"></path>
+    <path stroke="#000" fill="#fff" d="M250,450 v-30 a30,30 0 1,1 1,0.1" transform="rotate(216,250,500)"></path>
+    <path stroke="#000" fill="#fff" d="M250,450 v-30 a30,30 0 1,1 1,0.1" transform="rotate(288,250,500)"></path>
+  </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-14-18:05:48</text>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>

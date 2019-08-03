@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title">
+    <rect x="0" y="35" width="500" height="40" fill="#fe0"></rect>
+    <text x="250" y="65" font-size="30" text-anchor="middle" fill="#000" style="font-weight: bold">Continuous Integration</text>
+  </g>
+  
+  <g transform="translate(20,100)">
+    <rect x="0" y="0" width="180" height="60" fill="#fe0"></rect>
+    <text x="90" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">source code</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M180,30 h70" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+  <g transform="translate(290,100)">
+    <rect x="0" y="0" width="180" height="60" fill="#fe0"></rect>
+    <text x="90" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">tests</text>
+    <text x="150" y="110" font-size="20" text-anchor="middle" fill="#000" style="font-weight: bold">if needed</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,60 v70" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#000" stroke-width="3" d="M70,60 v50  q0,20 -20,20 h-40 q-20,0 -20,20 q0,20 -20,20 h-45" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+  
+  <g transform="translate(290,250)">
+    <rect x="0" y="0" width="180" height="60" fill="#fe0"></rect>
+    <text x="90" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">builds</text>    
+    <path fill="none" stroke="#000" stroke-width="3" d="M5,45 h-80" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path> 
+  </g>
+  
+  <g transform="translate(20,250)">
+    <rect x="0" y="0" width="180" height="180" fill="#fe0"></rect>
+    <text x="90" y="40" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">git commit</text>
+    <text x="90" y="80" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">git merge</text>
+    <text x="90" y="120" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">git push</text>
+    <text x="90" y="160" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">etc</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,170 v90" stroke-dasharray="10" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <text x="200" y="235" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">may or may not</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,5 v-70" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
+  
+<g transform="translate(20,530)">
+    <rect x="0" y="0" width="180" height="60" fill="#fff"></rect>
+    <text x="90" y="40" font-size="20" text-anchor="middle" fill="#000" style="font-weight: bold">shared repository</text>
+<!--    <path fill="none" stroke="#000" stroke-width="3" d="M90,170 v70" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+  </g> 
+    
+ 
+  
+  
+  
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="640" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-07-06</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>

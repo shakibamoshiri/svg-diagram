@@ -1,0 +1,18 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="600" font-family="Montserrat">
+	<rect x="0" y="0" width="500" height="600" fill="#0cf"></rect>
+  
+	<rect x="170" stroke="#000" stroke-width="2" y="0" fill="#ff0" width="150" height="70" rx="15"></rect>
+	<rect x="170" stroke="#000" stroke-width="2" y="145" fill="#ff0" width="150" height="70" rx="15"></rect>
+	<rect x="170" stroke="#000" stroke-width="2" y="295" fill="#ff0" width="150" height="70" rx="15"></rect>
+	<rect x="170" stroke="#000" stroke-width="2" y="445" fill="#ff0" width="150" height="70" rx="15"></rect>
+	<text id="DEV" x="250" y="50" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">TDD</text>
+	<text id="DEV" x="250" y="110" font-size="35" text-anchor="middle" fill="#000" xml:space="preserve">Test-Driven Development</text>
+	<text id="DEV" x="250" y="200" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">DDD</text>
+	<text id="DEV" x="250" y="250" font-size="35" text-anchor="middle" fill="#000" xml:space="preserve">Domain-Driven Design</text>
+	<text id="DEV" x="250" y="350" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">DSD</text>
+	<text id="DEV" x="250" y="400" font-size="35" text-anchor="middle" fill="#000" xml:space="preserve">Domain-Specific Design</text>
+	<text id="DEV" x="250" y="500" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">DCD</text>
+	<text id="DEV" x="250" y="550" font-size="35" text-anchor="middle" fill="#000" xml:space="preserve">Domain-Centric Design</text>
+</svg>
+

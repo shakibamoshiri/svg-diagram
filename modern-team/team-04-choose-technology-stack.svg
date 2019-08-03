@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#000"></rect>
+
+  <g class="title">
+    <rect x="0" y="35" width="500" height="40" fill="#fe0"></rect>
+    <text x="250" y="65" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Modern Team Guideline</text>
+  </g>
+
+  <g transform="translate(0,120)">
+    <text x="250" y="30" font-size="30" fill="#0ff" text-anchor="middle" font-weight="bold">choose technology stacks</text>
+    <text x="250" y="80" font-size="30" fill="#0ff" text-anchor="middle" font-weight="bold">appropriate to problem scale</text>
+  </g>
+  <g transform="translate(50,280)">
+    <rect x="0" y="0" width="150" height="100" fill="#fff"></rect>
+    <text x="30" y="60" font-size="30"  font-weight="bold">JSON</text>
+    <text x="30" y="-10" font-size="30"  fill="#fff" font-weight="bold">MS A</text>
+  </g>
+  <g transform="translate(300,280)">
+    <rect x="0" y="0" width="150" height="100" fill="#fff"></rect>
+    <text x="20" y="60" font-size="20"  font-weight="bold">mongoDB</text>
+    <text x="30" y="-10" font-size="30"  fill="#fff" font-weight="bold">MS B</text>
+  </g>
+    <g transform="translate(50,480)">
+    <rect x="0" y="0" width="150" height="100" fill="#fff"></rect>
+    <text x="40" y="60" font-size="20"  font-weight="bold">MySQL</text>
+    <text x="30" y="-10" font-size="30"  fill="#fff" font-weight="bold">MS C</text>
+  </g>
+  
+  <g transform="translate(300,480)">
+    <rect x="0" y="0" width="150" height="100" fill="#fff"></rect>
+    <text x="40" y="60" font-size="20"  font-weight="bold">Oracle</text>
+    <text x="30" y="-10" font-size="30"  fill="#fff" font-weight="bold">MS D</text>
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#fff" style="font-weight: bold">Designer and Creator: Shakiba Moshiri, 2019-07-30</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>

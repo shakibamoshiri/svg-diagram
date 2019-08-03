@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+ 
+  <g id="agile">
+    <rect x="10" y="10" width="480" height="45" fill="#fe0"></rect>
+    <text x="50" y="40" font-size="20"  fill="#000">Database in Service Based Architecture</text>
+    
+    <rect x="10" y="70" width="150" height="50" fill="#fff"></rect>
+    <text x="35" y="105" font-size="25"  fill="#000">Service 1</text>
+    
+    <rect x="170" y="70" width="150" height="50" fill="#fff"></rect>
+    <text x="200" y="105" font-size="25"  fill="#000">Service 2</text>
+    
+    <rect x="330" y="70" width="160" height="50" fill="#fff"></rect>
+    <text x="355" y="105" font-size="25"  fill="#000">Service 3</text>
+    <path d="M70,135 l120,0 q30,0 30,40" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <path d="M240,135 v40" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <path d="M410,135 l-120,0 q-30,0 -30,40" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <rect x="10" y="190" width="480" height="45" fill="#cf0"></rect>
+    <text x="130" y="220" font-size="25"  fill="#000">Shared Database</text>
+  </g>
+  
+  <g id="implementation_stack">
+    <rect x="10" y="310" width="480" height="45" fill="#fe0"></rect>
+    <text x="60" y="340" font-size="20"  fill="#000">Database in Microservice Architecture</text>
+    
+    <text x="70" y="400" font-size="30"  fill="#fff">C o n t a i n e r i z a t i o n</text>
+    
+    <rect x="20" y="450" width="130" height="50" fill="#fff"></rect>
+    <text x="35" y="485" font-size="25"  fill="#000">Service 1</text>
+    <rect x="20" y="560" width="130" height="45" fill="#cf0"></rect>
+    <path d="M80,510 l0,30" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <text x="60" y="590" font-size="25"  fill="#000">DB 1</text>
+    <rect x="10" y="430" width="150" height="200" stroke="#000" rx="10" fill="#fff"  fill-opacity="0.4"></rect>
+    
+    
+    <rect x="180" y="450" width="130" height="50" fill="#fff"></rect>
+    <text x="190" y="485" font-size="25"  fill="#000">Service 2</text>
+    <path d="M240,510 l0,30" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <path d="M240,510 l0,30" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <rect x="180" y="560" width="130" height="45" fill="#cf0"></rect>
+    <text x="220" y="590" font-size="25"  fill="#000">DB 2</text>
+    <rect x="170" y="430" width="150" height="200" stroke="#000" rx="10" fill="#fff"  fill-opacity="0.4"></rect>
+    
+    <rect x="340" y="450" width="130" height="50" fill="#fff"></rect>
+    <text x="355" y="485" font-size="25"  fill="#000">Service 3</text>
+    <path d="M410,510 l0,30" stroke="#000" stroke-width="3" fill="none" marker-start="url(#diamond)" marker-end="url(#arrowhead)" />
+    <rect x="340" y="560" width="130" height="45" fill="#cf0"></rect>
+    <text x="380" y="590" font-size="25"  fill="#000">DB 3</text>
+    <rect x="330" y="430" width="150" height="200" stroke="#000" rx="10" fill="#fff"  fill-opacity="0.4"></rect>
+  </g>
+  
+  
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-10-22:49:28</text>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>

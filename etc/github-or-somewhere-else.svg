@@ -1,0 +1,17 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" font-family="Montserrat">
+	<rect x="0" y="0" width="500px" height="500px" fill="#fe0"></rect>
+	
+	<rect x="125" y="30" width="250" height="100" rx="15" fill="#000"></rect>
+	<text id="DEV" x="250" y="100" font-size="60" text-anchor="middle" fill="#fff" xml:space="preserve">github</text>
+	<text id="DEV" x="250" y="200" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve">or:</text>
+	<text id="DEV" x="250" y="300" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve">Somewhere</text>
+	<text id="DEV" x="250" y="400" font-size="60" text-anchor="middle" fill="#000" xml:space="preserve">else</text>
+<!--
+	<path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+	<text font-size="60" word-spacing="30">
+		<textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+	</text>
+-->
+</svg>
+

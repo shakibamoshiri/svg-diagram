@@ -1,0 +1,20 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" font-family="Montserrat">
+	<rect x="0" y="0" width="500px" height="500px" fill="#0cf"></rect>
+  
+	<rect x="135" stroke="#000" stroke-width="2" y="40" fill="#fff" width="330" height="80" rx="15"></rect>
+	<rect x="250" stroke="#000" stroke-width="2" y="245" fill="#fff" width="230" height="80" rx="15"></rect>
+	<rect x="30" stroke="#000" stroke-width="2" y="415" fill="#ff0" width="430" height="80" rx="15"></rect>
+	<text id="DEV" x="250" y="100" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">An   Architecture</text>
+	<text id="DEV" x="250" y="200" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">knows how to ask</text>
+	<text id="DEV" x="250" y="300" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">the right question</text>
+	<text id="DEV" x="250" y="380" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">not just</text>
+	<text id="DEV" x="250" y="480" font-size="50" text-anchor="middle" fill="#000" xml:space="preserve">implementation</text>
+<!--
+	<path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+	<text font-size="60" word-spacing="30">
+		<textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+	</text>
+-->
+</svg>
+

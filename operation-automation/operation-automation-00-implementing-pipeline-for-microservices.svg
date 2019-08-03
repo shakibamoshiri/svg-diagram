@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title">
+<!--    <circle cx="250" cy="0" r="250" fill="#fe0"></circle>-->
+    <rect x="70" y="180" width="360" height="40" fill="#000" rx="10"></rect>
+    <rect x="55" y="430" width="390" height="40" fill="#000" rx="10"></rect>
+    <path fill="none" stroke="#000" stroke-width="4"
+          d="M140,90 h-50 q-30,0 -30,30  v110 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v90 q0,30 -30,30 h-80"
+          marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+    <circle cx="250" cy="325" r="100" fill="#fff"></circle>
+    
+<!--    <circle cx="250" cy="325" r="150" fill="none" stroke="#fe0" stroke-width="10"></circle>-->
+    <text x="250" y="100" font-size="30" text-anchor="middle" fill="#000" style="font-weight: bold">Source code</text>
+    <text x="250" y="210" font-size="30" text-anchor="middle" fill="#fff" style="font-weight: bold">Implementing Pipeline</text>
+    <text x="250" y="335" font-size="30" text-anchor="middle" fill="#000" style="font-weight: bold">f o r</text>
+    <text x="250" y="460" font-size="30" text-anchor="middle" fill="#fff" style="font-weight: bold">Microservice Architecture</text>
+    <text x="250" y="560" font-size="30" text-anchor="middle" fill="#000" style="font-weight: bold">End User</text>
+  </g>
+  
+
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-30</text>
+<!--
+<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+-->
+</svg>

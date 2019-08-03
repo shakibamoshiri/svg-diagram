@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+  
+  <g id="title">
+  <rect x="0" y="0" width="500" height="150" fill="#fff"></rect>
+  <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
+  <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">part 2</text>
+  <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">Five key Programming Concepts</text>
+  
+  </g>
+    <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">Problem Solving</text>
+  <g>
+    
+  <g transform="translate(0,60)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="20" y="205" font-size="25"  fill="#000">data: specific input for our functions?</text>
+  </g>
+  
+  <g transform="translate(0,120)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="20" y="205" font-size="25"  fill="#000">function: what to do with input?</text>
+  </g>
+  
+  <g transform="translate(0,200)">
+    <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
+    <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">Algorithm</text>
+    </g>
+
+    <g transform="translate(0,260)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="20" y="205" font-size="25"  fill="#000">order: which functions where?</text>
+  </g>
+    
+    <g transform="translate(0,320)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="20" y="205" font-size="25"  fill="#000">repetition: how many times?</text>
+  </g>
+    
+    <g transform="translate(0,380)">
+    <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
+    <text x="20" y="205" font-size="25"  fill="#000">decision: where changing direction?</text>
+  </g>
+    
+    
+
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-17</text>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>

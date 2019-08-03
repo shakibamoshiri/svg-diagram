@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="600" fill="#0cf"></rect>
+
+  <text x="250" y="50" font-size="25" text-anchor="middle"  xml:space="preserve" >Test in terms of Cost / Time / Number</text>
+  
+  <rect x="150" stroke="#000" stroke-width="2" y="70" fill="#ff0" width="200" height="70" rx="15"></rect>
+  <rect x="150" stroke="#000" stroke-width="2" y="150" fill="#ee0" width="200" height="70" rx="15"></rect>
+  <rect x="150" stroke="#000" stroke-width="2" y="230" fill="#dd0" width="200" height="70" rx="15"></rect>
+  <rect x="150" stroke="#000" stroke-width="2" y="310" fill="#cc0" width="200" height="70" rx="15"></rect>
+
+
+  <text id="DEV" x="250" y="120" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">Manual Test</text>
+  <text id="DEV" x="250" y="200" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">UI test</text>
+  <text id="DEV" x="250" y="280" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">System Test</text>
+  <text id="DEV" x="250" y="360" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">Unit Test</text>
+
+  <text x="250" y="420" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">In button-up approach we consume</text>
+  <text x="250" y="450" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">less time &amp; const and have more</text>
+  <text x="250" y="480" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve">number of tests</text>
+
+  <path d="M75,370 v-268" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <path d="M420,90 v268" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="50" y="240" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve" transform="rotate(-90,50,240)">Increase Cost / Time</text>
+  <text x="450" y="240" font-size="25" text-anchor="middle" fill="#000" xml:space="preserve" transform="rotate(90,450,240)">Increase Number of Test</text>
+
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+  </defs>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>

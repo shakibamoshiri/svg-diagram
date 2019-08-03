@@ -1,0 +1,36 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" font-family="Montserrat">  
+    <title>adzuki logo</title>
+    <desc>Author: Shakiba Moshiri</desc>
+<g>
+  <rect x="40" y="50" width="200px" height="100" rx="50" fill="#c80000"></rect>
+  <rect x="40" y="50" width="200px" height="100" rx="50" fill="#c80000" transform="rotate(90, 200,200)"></rect>
+  <rect x="40" y="50" width="200px" height="100" rx="50" fill="#c80000" transform="rotate(180, 200,200)"></rect>
+  <rect x="40" y="50" width="200px" height="100" rx="50" fill="#c80000" transform="rotate(270, 200,200)"></rect>
+</g>
+
+
+
+
+
+
+  <defs>
+	<pattern id="first" x="0" y="0" width="5%" height="5%">
+	  <path fill="none" stroke="#000" stroke-width="0.5" d="M0,25 25,25 25,0" />
+	</pattern>
+  </defs>
+  <defs>
+	<pattern id="second" x="0" y="0" width="10%" height="10%">
+	  <path fill="none" stroke="#F00" stroke-width="1" d="M0,50 50,50 50,0" />
+	</pattern>
+  </defs>
+  <rect  x="0" y="0" width="500" height="599" fill="url(first)"></rect>
+  <rect  x="0" y="0" width="500" height="500" fill="url(second)"></rect>
+  <circle cx="250" cy="225" r="0"></circle>
+<defs>
+  
+  <style type="text/css"><![CDATA[
+  ]]></style>
+</defs>
+
+</svg>

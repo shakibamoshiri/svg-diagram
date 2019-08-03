@@ -1,0 +1,44 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="600" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="600" fill="#0cf"></rect>
+
+  <rect x="0" y="25" width="500" height="75" fill="#fe0"></rect>
+  <text x="250" y="75" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Deploy</text>
+  <path d="M125,250 a125,125 0 1,1 250,0" stroke="#000" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  <text x="100" y="275" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">A</text>
+  <text x="430" y="275" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Goal</text>
+  <text x="250" y="250" font-size="30" text-anchor="middle" fill="#fff" xml:space="preserve">Huge Jump</text>
+  
+  <rect x="0" y="300" width="500" height="75" fill="#fe0"></rect>
+  <text x="250" y="350" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Deployability</text>
+  <path d="M50,470 a50,50 0 1,1 100,0" stroke="#000" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M150,470 a50,50 0 1,1 100,0" stroke="#000" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M250,470 a50,50 0 1,1 100,0" stroke="#000" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M350,470 a50,50 0 1,1 100,0" stroke="#000" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  <text x="50" y="520" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">A</text>
+  <text x="100" y="470" font-size="15" text-anchor="middle" fill="#fff" xml:space="preserve">Tiny Jump</text>
+  <text x="150" y="520" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">B</text>
+  <text x="200" y="470" font-size="15" text-anchor="middle" fill="#fff" xml:space="preserve">Tiny Jump</text>
+  <text x="250" y="520" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">C</text>
+  <text x="300" y="470" font-size="15" text-anchor="middle" fill="#fff" xml:space="preserve">Tiny Jump</text>
+  <text x="350" y="520" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">D</text>
+  <text x="400" y="470" font-size="15" text-anchor="middle" fill="#fff" xml:space="preserve">Tiny Jump</text>
+  <text x="450" y="520" font-size="40" text-anchor="middle" fill="#000" xml:space="preserve">Goal</text>
+  
+  
+  <text x="10" y="590" font-size="10"  fill="#000" xml:space="preserve">Designer and Creator: Shakiba Moshiri</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 5 3.5, 0 7" />
+    </marker>
+  </defs>
+  <!--
+ <path id="circle" fill="none" stroke="none" stroke-width="0" d="M50,250 a200,200 0 1,1 0,0.1"></path>
+ <text font-size="60" word-spacing="30">
+  <textPath href="#circle">Scalable Vector Graphic for the Web</textPath>
+ </text>
+-->
+</svg>
+

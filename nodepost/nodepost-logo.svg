@@ -1,0 +1,69 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450"
+	 xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="450" font-family="Montserrat">  
+    <title>nodepost logo</title>
+    <desc>Author: Shakiba Moshiri</desc>
+	<path stroke-dasharray="1022" stroke-dashoffset="1022" id="honeycomb" fill="none" stroke="#000" stroke-linejoin="round" stroke-linecap="round" stroke-width="10"
+          d="M250,50 l150,100 v150 l-150,100 l-150,-100 v-150 l150,-100z"></path>
+  
+	<path stroke-dasharray="827" stroke-dashoffset="827" id="n_sign" fill="none" stroke="#fe0" stroke-linecap="butt" stroke-width="5"
+          d="M150,300 l0,-150 l50,0 v50 q150,-100 150,0 v100 l-50,0 q0,-150 -150,-0z"></path>
+
+
+
+
+
+<!--
+  <defs>
+	<pattern id="first" x="0" y="0" width="5%" height="5%">
+	  <path fill="none" stroke="#000" stroke-width="0.5" d="M0,25 25,25 25,0" />
+	</pattern>
+  </defs>
+  <defs>
+	<pattern id="second" x="0" y="0" width="10%" height="10%">
+	  <path fill="none" stroke="#F00" stroke-width="1" d="M0,50 50,50 50,0" />
+	</pattern>
+  </defs>
+  <rect  x="0" y="0" width="500" height="599" fill="url(#first)"></rect>
+  <rect  x="0" y="0" width="500" height="500" fill="url(second)"></rect>
+  <circle cx="250" cy="225" r="0"></circle>
+-->
+<defs>
+  <style type="text/css"><![CDATA[
+  @keyframes honeycomb {
+    from { stroke-dashoffset: 1021 }
+    to { stroke-dashoffset: 0 }
+  }
+  @keyframes fill_honeycomb {
+    from { fill: transparent; }
+    to { fill: #000; }
+  }
+  @keyframes rotate_honeycomb {
+    from { transform: rotateZ(0); }
+    to { transform: rotateZ(360deg); }
+  }
+  @keyframes n_sign {
+    from { stroke-dashoffset: 827 }
+    to { stroke-dashoffset: 0 }
+  }
+  @keyframes fill_n_sign {
+    from { fill: transparent; }
+    to { fill: #fe0; }
+  }
+  path#honeycomb {
+    transform-origin: 250px 225px;
+    animation-name: honeycomb, fill_honeycomb, rotate_honeycomb;
+    animation-delay: 1s, 5s, 15s;
+    animation-duration: 4s, 2s;
+    animation-fill-mode: forwards, forwards;
+    animation-iteration-count: 1, 1, infinite;
+  }
+  path#n_sign {
+    animation-name: n_sign, fill_n_sign;
+    animation-delay: 7s, 11s;
+    animation-duration: 4s, 2s;
+    animation-fill-mode: forwards;
+  }
+  ]]></style>
+</defs>
+
+</svg>

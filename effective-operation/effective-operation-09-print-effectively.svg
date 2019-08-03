@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g id="title">
+    <rect x="0" y="0" width="500" height="150" fill="#fff"></rect>
+    <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
+    <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">Final Part</text>
+    <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">Printing Effectively</text>
+  </g>
+  <g font-family="Vazir" font-size="40" transform="translate(0,140)">
+    <text x="250" y="200" text-anchor="middle" fill="#000">چطور با پرینتر یک رو</text>
+    <text x="250" y="270" text-anchor="middle" fill="#000">دو رو چاپ کنیم</text>
+<!--    <path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0,30 30,30 h330 a25,25 0 0,1 0,70 h-330 a25,25 0 0,0 0,70 h330 q30,0 30,30 v100" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+  </g>
+
+
+
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#000" >Designer and Creator: Shakiba Moshiri, 2019-06-29</text>
+  <!--
+first we can use 
+grep -P '[^"]+\.mp3(?=")' html
+but since it print relative path and we need absolute path for downloading them
+we us perl
+perl -lne '/[^"]+\.mp3(?=")/ && print "https://archive.org/download/englishpod_all/$&"' html > links
+or
+grep -Po '[^"]+\.mp3(?=")' html | sed 's@^@https://archive.org/download/englishpod_all/@'
+
+in one line
+curl -sL https://archive.org/download/englishpod_all/ | perl -lne '/[^"]+\.mp3(?=")/ && print "https://archive.org/download/englishpod_all/$&"' > links
+-->
+</svg>
