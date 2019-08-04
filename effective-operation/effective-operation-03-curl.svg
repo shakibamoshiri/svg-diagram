@@ -6,6 +6,7 @@
   <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
   <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">part 4</text>
   <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">curl (transform a url)</text>
+  </g>
   
   </g>
     <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
