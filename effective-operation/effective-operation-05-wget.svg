@@ -6,13 +6,14 @@
   <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
   <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">part 7</text>
   <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">download from reactpodcast.com</text>
-  
   </g>
+
+  <g>
     <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
     <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">reactpodcast.com</text>
     <path fill="none" stroke="#000" stroke-width="3" d="M60,200 v345" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>
+  </g>
   
-  <g>
     
   <g transform="translate(0,80)">
     <circle cx="60" cy="200" fill="#fff" r="40"></circle>
