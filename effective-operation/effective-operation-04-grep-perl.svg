@@ -6,11 +6,12 @@
   <text x="250" y="65" font-size="40" text-anchor="middle" fill="#000">Effective Operation</text>
   <text x="30" y="75" font-size="25" text-anchor="middle" fill="#000" transform="rotate(-90,30,75)">part 5</text>
   <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">grep &amp; perl one-liners</text>
-  
   </g>
+  
+  <g>
     <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
     <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">Print All .mp3 Files' path using grep</text>
-  <g>
+  </g>
     
   <g transform="translate(0,60)">
     <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>

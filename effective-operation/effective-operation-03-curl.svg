@@ -8,10 +8,10 @@
   <text x="250" y="115" font-size="25" text-anchor="middle" fill="#000">curl (transform a url)</text>
   </g>
   
-  </g>
+  <g>
     <rect x="10" y="170" fill="#fe0" width="480" height="50"></rect>
     <text x="250" y="205" font-size="25" text-anchor="middle" fill="#000">Weather Report</text>
-  <g>
+  </g>
     
   <g transform="translate(0,60)">
     <rect x="10" y="170" fill="#fff" width="480" height="50"></rect>
