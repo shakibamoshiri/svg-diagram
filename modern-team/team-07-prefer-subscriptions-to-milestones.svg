@@ -8,23 +8,28 @@
 
   <g transform="translate(0,200)">
     <circle cx="150" cy="0" r="20" fill="#0f0"></circle>
-    <circle cx="250" cy="0" r="20" fill="#0f0"></circle>
+    <circle cx="200" cy="-50" r="30" fill="#0f0"></circle>
+    <circle cx="300" cy="-50" r="30" fill="#0f0"></circle>
     <circle cx="350" cy="0" r="20" fill="#0f0"></circle>
-    <path fill="none" stroke="#fff" stroke-width="3" d="M100,0 a50,50 0 0,1 100,0 a50,50 0 0,0 100,0 a50,50 0 0,1 100,0" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M250,70 l-60,-40" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M250,70 l-30,-80" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M250,70 l30,-80" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M250,70 l60,-40" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
   </g>
   
-  <g transform="translate(0,300)">
+  <g transform="translate(0,320)">
     <text x="250" y="30" font-size="35" fill="#fff" text-anchor="middle" font-weight="bold">Prefer subscriptions</text>
     <text x="250" y="80" font-size="35" fill="#fff" text-anchor="middle" font-weight="bold">to milestones</text>
   </g>
   
-  <g transform="translate(0,470)">
-    <rect x="130" y="0" width="40" height="40" fill="#f00"></rect>
-    <rect x="230" y="0" width="40" height="40" fill="#f00"></rect>
-    <rect x="330" y="0" width="40" height="40" fill="#f00"></rect>
-    <path fill="none" stroke="#fff" stroke-width="3" d="M135,120 v-50 a10,10 0 0,1 30,0 v45" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
-    <path fill="none" stroke="#fff" stroke-width="3" d="M235,120 v-50 a10,10 0 0,1 30,0 v45" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
-    <path fill="none" stroke="#fff" stroke-width="3" d="M335,120 v-50 a10,10 0 0,1 30,0 v45" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+  <g transform="translate(0,500)">
+    <rect x="120" y="0" width="60" height="40" fill="#f00"></rect>
+    <rect x="220" y="0" width="60" height="40" fill="#f00"></rect>
+    <rect x="320" y="0" width="60" height="40" fill="#f00"></rect>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M50,20  h50 v-50 h50 v20" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M150,50 v20 h50 v-100 h50 v20" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M250,50 v20 h50 v-100 h50 v20" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M350,50 v20 h50 v-50 h50" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
   </g>
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" 
@@ -36,6 +41,6 @@
     </marker>
   </defs>
 
-  <text x="10" y="645" font-size="10"  fill="#fff" style="font-weight: bold">Designer and Creator: Shakiba Moshiri, 2019-08-02</text>
+  <text x="10" y="645" font-size="10"  fill="#fff" style="font-weight: bold">Designer and Creator: Shakiba Moshiri, 2019-08-04</text>
 <!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
 </svg>
