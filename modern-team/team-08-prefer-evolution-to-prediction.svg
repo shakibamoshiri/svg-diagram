@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#000"></rect>
+
+  <g class="title">
+    <rect x="0" y="35" width="500" height="40" fill="#fe0"></rect>
+    <text x="250" y="65" font-size="25" text-anchor="middle" fill="#000" style="font-weight: bold">Modern Team Guideline</text>
+  </g>
+
+  <g transform="translate(0,170)">
+    <circle cx="100" cy="0" r="6" fill="#0f0"></circle>
+    <path fill="none" stroke="#0f8" stroke-width="6" d="M150,0 h40" ></path>
+    <path fill="none" stroke="#0f8" stroke-width="6" d="M220,0 a20,20 0 1,1 40,0" ></path>
+    <path fill="none" stroke="#0f8" stroke-width="6" d="M300,0 a20,20 0 1,1 0,0.1" ></path>
+    <path fill="#0f0" stroke="#0f8" stroke-width="6" d="M370,0 a20,20 0 1,1 0,0.1" ></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M100,50 h300" marker-start="url(#diamond)"  marker-end="url(#arrowhead)"></path>
+  </g>
+  
+  <g transform="translate(0,300)">
+    <text x="250" y="30" font-size="35" fill="#fff" text-anchor="middle" font-weight="bold">Prefer evolution</text>
+    <text x="250" y="80" font-size="35" fill="#fff" text-anchor="middle" font-weight="bold">to prediction</text>
+  </g>
+  
+  <g transform="translate(0,500)">
+    <circle cx="250" cy="20" r="20" fill="#f00"></circle>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M190,20 q60,-60 120,0 q-60,60 -120,0" ></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M330,25 h50"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M330,25 h50" transform="rotate(-20,250,20)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M330,25 h50" transform="rotate(20,250,20)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M170,25 h-50"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M170,25 h-50" transform="rotate(20,250,20)"></path>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M170,25 h-50" transform="rotate(-20,250,20)"></path>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <text x="10" y="645" font-size="10"  fill="#fff" style="font-weight: bold">Designer and Creator: Shakiba Moshiri, 2019-08-05</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>
