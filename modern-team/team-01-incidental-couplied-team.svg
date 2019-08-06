@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
-  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+  <rect x="0" y="0" width="500" height="650" fill="#000"></rect>
 
   <g class="title">
     <rect x="0" y="35" width="500" height="40" fill="#fe0"></rect>
@@ -10,27 +10,27 @@
     <circle cx="0" cy="0" r="20" fill="#f80"></circle>
     <circle cx="50" cy="0" r="20" fill="#f80"></circle>
     <circle cx="50" cy="50" r="20" fill="#f80"></circle>
-    <text x="150" y="0" font-size="25" font-weight="bold">Front-end Team</text>
-    <line x1="-50" x2="350" y1="100" y2="100" stroke="#000"></line>
+    <text x="150" y="0" font-size="25" font-weight="bold" fill="#fff">Front-end Team</text>
+    <line x1="-50" x2="350" y1="100" y2="100" stroke="#fff"></line>
   </g>
   <g transform="translate(100,270)">
     <circle cx="0" cy="0" r="20" fill="#0f8"></circle>
     <circle cx="50" cy="0" r="20" fill="#0f0"></circle>
     <circle cx="50" cy="50" r="20" fill="#0f0"></circle>
-    <text x="150" y="0" font-size="25" font-weight="bold">Back-end Team</text>
-    <line x1="-50" x2="350" y1="100" y2="100" stroke="#000"></line>
+    <text x="150" y="0" font-size="25" font-weight="bold" fill="#fff">Back-end Team</text>
+    <line x1="-50" x2="350" y1="100" y2="100" stroke="#fff"></line>
     
   </g>
   <g transform="translate(100,410)">
     <circle cx="0" cy="0" r="20" fill="#80f"></circle>
     <circle cx="50" cy="0" r="20" fill="#80f"></circle>
     <circle cx="50" cy="50" r="20" fill="#80f"></circle>
-    <text x="150" y="0" font-size="25" font-weight="bold">Database</text>
+    <text x="150" y="0" font-size="25" font-weight="bold" fill="#fff">Database</text>
   </g>
   <g transform="translate(0,550)">
-    <rect x="70" y="15" width="350" height="50" rx="25"></rect>
-    <text x="250" y="0" font-size="25" fill="#fff" font-weight="bold" text-anchor="middle">Organizing Team Round Job Function</text>
-    <text x="250" y="50" font-size="25" fill="#fff" font-weight="bold" text-anchor="middle">Incidental Coupled Team</text>
+    <rect x="70" y="15" width="350" height="50" rx="25" fill="#fff"></rect>
+    <text x="250" y="0" font-size="20" fill="#fff" font-weight="bold" text-anchor="middle">Organizing Team Around Job Function</text>
+    <text x="250" y="50" font-size="25" font-weight="bold" text-anchor="middle">Incidental Coupled Team</text>
   </g>
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" 
