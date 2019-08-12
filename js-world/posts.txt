@@ -1,0 +1,11 @@
+the blog
+http://jsfun.ir/
+
+topic address
+http://jsfun.ir/the-world-of-javascript
+
+first post
+http://jsfun.ir/the-world-of-javascript/before-1991
+
+second post
+http://jsfun.ir/the-world-of-javascript/1991
