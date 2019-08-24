@@ -1,0 +1,47 @@
+قسمت تاریخ جاواسکریپت رو رد کردیم و وارد خود زبان می شیم
+و قبلش دوست داشتم این دسته بنده رو بگم تا بدونیم با چی طرف هستیم
+
+JavaScrip the ugly part
+قسمت زشت یعنی چیزی های که در جاواسکریپت هست اما در زبان های دیگه نیست یا خیلی که
+بیشترین سر درد رو اینجا داریم مثل
+browser incompatibility
+huge dependency graph
+dependent environment
+dependent workflow
+
+JavaScrip the bad part
+قسمت بد یعنی چیزی های که در جاواسکریپت هست و زبان های دیگه اما اینجا بد پیاده شده
+سر درد داریم ولی کمتر تا حالت اول مثل
+function block scope
+variable hoisting
+prototype inheritance
+function general keyword
+dynamic this binding
+etc
+
+JavaScrip the good part
+و قسمت خوب یعنی جاواسکریپت بهتر از زبان های دیگه تونسته یا میتونه ی چیزی رو انجام بده
+عمده تمرکزمون باید اینجا باشه
+small core
+easy to take off with
+productivity
+first class function
+C like syntax
+big company support
+etc
+
+هر سه تای اینها رو سریع مرور میکنیم
+و ممنون از دوستانی که قسمت تاریخی رو همراهی کردن
+کامنت گذاشتن
+و پیام دادن
+
+بریم برای پست بعدی
+سعی میکنم هر روز صبح حدود ساعت ۹ تا ۹ و ۱۵ منتشر بشن
+
+#frontend
+#developer
+#programmer
+#javascript
+#js
+#web
+#nodejs
