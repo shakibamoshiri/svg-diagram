@@ -1,0 +1,42 @@
+این چند روزی که پست های راجب جاواسکریپت قطع شد درگیر پیاده سازی
+private git server
+private shared repository
+automation
+برای یه شرکت بودم که مجبور شدم همه تمرکزم رو بذارم روش
+
+چون گیت هاب ریپو ها خصوصی رو بسته و گیت لب هم بلاک کرده ایران رو
+خیلی وقت تلف کردن هست روشن و خاموش کردن وی پی ان
+یا دادن پراکسی به خودت گیت و 
+private git server
+private shared repository
+کار توسعه رو سریع تر میکنه مخصوصا با داشتن
+automation
+بعدا جزییات این رو میگم و مطمنم شرکت های تو ایران به این سیستم نیاز دارن
+
+و دوباره داستان جاواسکریپت مون از سر میگیریم
+اون قسمت های از جاواسکریپت که گفتیم بد هستن
+منظورم این بود که گیج کننده هستن و فرانت ها رو اذیت میکنه رو بیشتر باز میکینم
+سری جدید با عنوان
+Effective JavaScript
+خواهد بود و تقریبا شامل
+variable scope
+function
+this binding
+objects
+event loop
+Single thread environment
+و شایدم چیزهای دیگه باشه و سعی میکنم در اولین فرصت شروع کنم
+
+#private
+#git
+#server
+#shared
+#repository
+#versioncontrol
+
+#web
+#javascript
+#js
+#frontend
+#software
+#developer
