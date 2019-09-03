@@ -1,0 +1,59 @@
+میدونیم که جاواسکریپت دانامیک تابپ هست
+dynamic typed language
+این باعت میشه ما مجاز باشیم نوع متغیر رو در ران تایم تغییر بدیم
+یعنی میتونیم بگیم
+let name = "JS";
+چند خط پایین تر بگیم
+name = 2019;
+
+اما با تغییر تایپ در ران تایم و اساسا تعداد زیاد تغییر تایپ دو تا مشکل بوجود میاد
+1. compiler overhead optimization
+2. side effect propagation
+
+در انجین های جاواسکریپت مدرن دو حالت داریم
+baseline compilation => interpreter
+compiler optimization => compiler
+
+در واقع کد جاواسکریپت توسط مفسر اولیه خوانده میشه اما برای سریع اجرا شدن
+یه بار دیگه کد ماشینی که قراره اجرا بشه بهینه میشه
+حالا این وسط اگه نوع متغیر تغییر کنه قسمت دوم یعنی
+compiler optimization
+مجبوره دست از بهنیه کردن برداره و
+de-optimize
+کنه کدی رو که قبلا بهینه کرده
+
+یعنی چی؟ یعنی
+overhead
+
+پس تا جایی که میتونیم نوع متغییر رو تغییر نمیدیم
+تا جایی که میتونیم از
+var
+let
+استفاده نمی کنیم و از
+const
+استفاده میکنم و این شدنیه
+مثالش رو هم میتونید روی گیت هاب خودم ببنید که اپ
+nodepost
+رو بدون
+let
+var
+نوشتم حتا یک عدد وجود نداره و همه چیز 
+const
+هست
+
+برای درک بهتر حتما این ویدیو رو از خانم فرنسیسکا هنکلمن ببینید
+در مورد وی 8 گوگل هست
+حدود 25 دقیقه س
+https://www.youtube.com/watch?v=p-iiEDtpy6I
+
+بریم برای پست بعدی
+فانکش ها
+
+#javascript
+#js
+#web
+#software
+#frontend
+
+linkedin post link
+https://www.linkedin.com/posts/shakibamoshiri_aeuaepaewaepaebagpaezahyafyaes-aetaesaeiahyaez-activity-6574510003619672064-N7az
