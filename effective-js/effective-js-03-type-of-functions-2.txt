@@ -1,0 +1,57 @@
+خب سری دوم فانکشن ها در جاواسکریپت
+
+6. IIFE: Immediately Invoked Function Expression
+declaration + invocation at the same time
+usage:
+information hiding
+creating a namespace
+http://jsfun.ir/effective-javascript/variable-scope/immediately-invoked-function-expression
+همون جایی که فاکشن رو اعلان میکنیم اجرا هم میکنیم
+کاربرد؟
+هاید کردن متغییر ها و ... یه جوری نیم سپیس داشتن
+
+7. HOC: Higher Order Function
+Declarative interface for hiding imperative code using simple Inversion of Control mechanism
+یه اینترفیس ساده و خوانا برای کدی که عمل اصلی رو انجام میده به کمک عکس کردن کنترل
+اجرا کننده ی یکی دیگه س
+ولی کنترل کننده ما هستیم
+http://jsfun.ir/effective-javascript/working-with-functions/higher-order-functions
+
+8. Callback Function
+register a function for an asynchronous operation
+the result is notified later
+This is kind of "Event Driven Architecture"
+برای عملی غیر همزمان فانکشی رو رجیستر میکنیم و نتیجه بعدا به ما گفته میشه
+
+9. Arrow Function () => { ... }
+new ES6 function that has no dynamic "this" binding
+usage:
+fast and simple function passing
+weakness:
+not useful as a method
+نوع جدید از فانکشن که دیس باندیگ نداره
+برای ساده پاس دادن طراحی شده
+به عنوان متد گزینه خوبی نیست
+
+10. Closure
+capturing outer scope data / functions by reference for later execution
+برداشتن رفرنسی از سکوپ بیرونی برای اجرا و دسترسی در زمان دیگری
+
+usage:
+lazy evaluation or lazy algorithm
+partial application
+currying
+memoization
+
+نگران این لغات نباشید همه رد بحث
+functional programming
+توضیح میدم
+
+بریم برای پست بعدی
+
+#javascript
+#js
+#frontend
+#web
+#software
+#nodejs

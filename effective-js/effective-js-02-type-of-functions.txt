@@ -1,0 +1,58 @@
+بعد از ابجکت فانکشن مهمترین مفهوم در جاواسکریپت هست
+در زبان های غیر فانکشنال فانکشن فقط فانکشنه
+اما در زبان های فانکشنال هم فانکشنه هم ولیو
+function as function
+function as value
+
+قسمت گیج کننده ی ماجرا اینجاست که همه ی اینها از کیوورد فانکشن استفاده میکن اما کاربرد متفاوتی دارن
+درک دست این کابرد کمک میکنه مسلط تر کد بزنیم
+
+1. regular function
+first declaration
+then invocation
+اول تعریف میکنیم
+بعد صدا میزنیم
+
+2. method
+first declaration as property of an object
+then invocation as a method of the object
+اول اون برای یک ابجکت تعریف میکینم
+بعدا به عنوان متد اون ابجکت اون رو صدا میزنیم
+
+3. constructor
+first declaration with "function" keyword
+then invocation with "new" keyword
+با کیوورد فانکشن اون رو تعریف میکنیم
+اما با کیوورذ نیو اون رو صدا میزنیم
+
+4. function expression
+first assigning to a variable or return it or pass it around
+then use it later on as a value or function
+اول اون رو واگذار میکنیم یا بر میگردونیم با پاس میدیم
+بعدا ازش به عنوان ولیو یا فانکشن استفاده می کنیم
+
+5. named function expression
+a function expression with name
+usability:
+1. readability
+2. recursive function call
+یه عبارت به صورت فانکشن که اسم داره
+برای خوانایی بهتر و ریکیرسیو کال
+
+اینه همه داستانه؟ نه
+بازم داریم
+
+6. IIFE: Immediately Invoked Function Expression
+7. HOC: Higher Order Function
+8. Callback Function
+9. Arrow Function () => { ... }
+10. Closure
+
+پنج تای بعدی مشین موضوع پست بعدی
+
+#javascript
+#js
+#frontend
+#web
+#software
+#nodejs
