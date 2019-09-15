@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -250 700 950" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" font-family="ubuntu">  
+  <title>Private Git Server Animation</title>
+  <desc>Author: Shakiba Moshiri</desc>
+  <g id="end_users_1" transform="translate(150,-240)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#000"></rect>
+    <text x="30" y="40" fill="#fff" font-size="20">end</text>
+    <text x="25" y="70" fill="#fff" font-size="20">users</text>
+    <path id="move_stroke"  d="M70,110 l90,100" stroke-dasharray="10" stroke-dashoffset="-20" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+  </g>
+  <g id="end_users_2" transform="translate(300,-240)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#000"></rect>
+    <text x="30" y="40" fill="#fff" font-size="20">end</text>
+    <text x="25" y="70" fill="#fff" font-size="20">users</text>
+    <path id="move_stroke"  d="M50,110 v100" stroke-dasharray="10" stroke-dashoffset="-20" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+  </g>
+  <g id="end_users_3" transform="translate(450,-240)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#000"></rect>
+    <text x="30" y="40" fill="#fff" font-size="20">end</text>
+    <text x="25" y="70" fill="#fff" font-size="20">users</text>
+    <path id="move_stroke"  d="M30,110 l-90,100" stroke-dasharray="10" stroke-dashoffset="-20" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+  </g>
+  <g id="production_server" transform="translate(300,10)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#000"></rect>
+    <circle cx="50" cy="50" r="59" fill="none" stroke="#000" stroke-width="3"></circle>
+    <text x="30" y="60" fill="#fff" font-size="30">PS</text>
+    <text x="130" y="40" fill="#000" font-size="20">production</text>
+    <text x="130" y="60" fill="#000" font-size="20">server</text>
+    <text x="-100" y="170" fill="#000" font-size="20">change</text>
+    <text x="-100" y="190" fill="#000" font-size="20">notification</text>
+    <text x="100" y="170" fill="#000" font-size="20">pull</text>
+    <text x="100" y="190" fill="#000" font-size="20">clone</text>
+    <!--    <text x="100" y="230" fill="#000" font-size="30">pull</text>-->
+    <path id="move_stroke"  d="M25,270 v-140" stroke-dasharray="20" stroke-dashoffset="-20" fill="none" stroke="#00c800"  stroke-width="5" marker-end="url(#arrow_green)"></path>
+    <path id="move_stroke"  d="M80,270 v-140" stroke-dasharray="20" stroke-dashoffset="-20" fill="none" stroke="#00c800"  stroke-width="5" marker-end="url(#arrow_green)"></path>
+  </g>
+  <g id="private_git_server" transform="translate(300,300)">
+    <rect x="0" y="0" width="100" height="100" rx="10" fill="#000"></rect>
+    <rect x="-5" y="-5" width="110" height="110" rx="10" fill="none" stroke="#000" stroke-width="3"></rect>
+    <text x="20" y="40" fill="#fff" font-size="30">PGS</text>
+    <text x="25" y="80" fill="#fff" font-size="30">CIS</text>
+    <!--    <text x="-290" y="-150" fill="#000" font-size="20">Private Git Server, or could be</text>-->
+    <!--    <text x="-290" y="-130" fill="#000" font-size="20">Continuous Integration Server</text>-->
+    <!--    <path id=""  d="M-200,-120 q0,50 50,50 h130 q40,0 40,40"  fill="none" stroke="#000"  stroke-width="3" marker-end="url(#arrow)"></path>-->
+  </g>
+
+  <g id="developer_team" transform="translate(300,590)" >
+    <rect x="0" y="0" width="100" height="100" rx="50%" fill="#000"></rect>
+    <circle cx="50" cy="50" r="59" fill="none" stroke="#000" stroke-width="3"></circle>
+    <text x="30" y="40" fill="#fff" font-size="20">dev</text>
+    <text x="25" y="70" fill="#fff" font-size="20">team</text>
+    <text x="-60" y="-60" fill="#000" font-size="30">push</text>
+    <text x="100" y="-60" fill="#000" font-size="20">pull, clone</text>
+    <text x="100" y="-40" fill="#000" font-size="20">email, sms</text>
+    <path id="move_stroke"  d="M25,-20 v-140" stroke-dasharray="10" stroke-dashoffset="0" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+    <path id="move_stroke"  d="M80,-170 v140" stroke-dasharray="10" stroke-dashoffset="0" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+  </g>
+
+  <g id="others_public" transform="translate(590,590)">
+    <rect x="0" y="0" width="100" height="100" rx="50%" fill="#000"></rect>
+    <text x="20" y="55" fill="#fff" font-size="20">others</text>
+    <text x="-40" y="-100" fill="#000" font-size="20">clone</text>
+    <text x="-40" y="-80" fill="#000" font-size="20">pull</text>
+    <text x="-40" y="-60" fill="#000" font-size="20">push</text>
+    <path id="move_stroke"  d="M25,-20 v-140" stroke-dasharray="50" stroke-dashoffset="-40" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+    <path id="move_stroke"  d="M80,-170 v140" stroke-dasharray="50" stroke-dashoffset="-40" fill="none" stroke="#000"  stroke-width="5" marker-end="url(#arrow)"></path>
+  </g>
+
+  <g id="ci_cd" transform="translate(10,590)">
+    <text x="20" y="0" fill="#000" font-size="20">Continuous Integration</text>
+    <text x="20" y="20" fill="#000" font-size="20">Continuous Deployment</text>
+    <path d="M30,-30 v-40 q0,-50 50,-50 h260 " fill="none" stroke="#000" stroke-width="2" marker-end="url(#ballet)" marker-start="url(#ballet)"></path>
+  </g>
+
+  <g id="delivery" transform="translate(10,50)">
+    <text x="20" y="20" fill="#000" font-size="20">Continuous Delivery</text>
+    <path d="M30,30 v100 q0,50 50,50 h260" fill="none" stroke="#000" stroke-width="2" marker-end="url(#ballet)" marker-start="url(#ballet)"></path>
+  </g>
+
+  <g id="delivery" transform="translate(450,100)" fill="#c80000">
+    <text x="20" y="0" font-size="20">Private Git Server</text>
+    <text x="20" y="20" font-size="20">CI Server</text>
+    <path d="M70,30 v170 q0,50 -50,50 h-120" fill="none" stroke="#c80000" stroke-width="2" marker-end="url(#ballet_red)" marker-start="url(#ballet_red)"></path>
+  </g>
+
+  <g id="github" transform="translate(590,300)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#f80"></rect>
+    <circle cx="50" cy="50" r="59" fill="none" stroke="#f80" stroke-width="3"></circle>
+    <text x="15" y="-20" fill="#000" font-size="25">github</text>
+    <text x="15" y="56" fill="#fff" font-size="25">public</text>
+    <text x="-150" y="0" fill="#000" font-size="30">push</text>
+    <text x="-150" y="110" fill="#000" font-size="20">web-hook</text>
+    <text x="-150" y="130" fill="#000" font-size="20">notification</text>
+    <path id="move_stroke"  d="M-20,70 h-140" stroke-dasharray="10" stroke-dashoffset="0" fill="none" stroke="#f80"  stroke-width="5" marker-end="url(#arrow_orange)"></path>
+    <path id="move_stroke"  d="M-170,20 h140" stroke-dasharray="10" stroke-dashoffset="0" fill="none" stroke="#f80"  stroke-width="5" marker-end="url(#arrow_orange)"></path>
+  </g>
+
+  <g id="gitlab" transform="translate(10,300)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#f80"></rect>
+    <circle cx="50" cy="50" r="59" fill="none" stroke="#f80" stroke-width="3"></circle>
+    <text x="15" y="-20" fill="#000" font-size="25">gitlab</text>
+    <text x="10" y="56" fill="#fff" font-size="25">private</text>
+    <text x="200" y="0" fill="#000" font-size="30">push</text>
+    <text x="150" y="110" fill="#000" font-size="20">web-hook</text>
+    <text x="150" y="130" fill="#000" font-size="20">notification</text>
+    <path id="move_stroke"  d="M120,70 h140" stroke-dasharray="10" stroke-dashoffset="0" fill="none" stroke="#f80"  stroke-width="5" marker-end="url(#arrow_orange)"></path>
+    <path id="move_stroke"  d="M270,20 h-140" stroke-dasharray="10" stroke-dashoffset="0" fill="none" stroke="#f80"  stroke-width="5" marker-end="url(#arrow_orange)"></path>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="5" markerHeight="5" refX="0" refY="2.5" orient="auto">
+      <polygon fill="#000" points="0 0, 4 2.5, 0 5" />
+    </marker>
+    <marker id="arrow_orange" markerWidth="5" markerHeight="5" refX="0" refY="2.5" orient="auto">
+      <polygon fill="#f80" points="0 0, 4 2.5, 0 5" />
+    </marker>
+    <marker id="arrow_green" markerWidth="5" markerHeight="5" refX="0" refY="2.5" orient="auto">
+      <polygon fill="#00c800" points="0 0, 4 2.5, 0 5" />
+    </marker>
+    <marker id="ballet" markerWidth="12" markerHeight="12" refX="6" refY="6">
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2" />
+    </marker>
+    <marker id="ballet_red" markerWidth="12" markerHeight="12" refX="6" refY="6">
+      <circle fill="#c80000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2" />
+    </marker>
+  </defs>
+
+  <!--
+  <defs>
+ <pattern id="first" x="0" y="0" width="5%" height="5%">
+   <path fill="none" stroke="#000" stroke-width="0.5" d="M0,25 25,25 25,0" />
+ </pattern>
+  </defs>
+  <defs>
+ <pattern id="second" x="0" y="0" width="10%" height="10%">
+   <path fill="none" stroke="#F00" stroke-width="1" d="M0,50 50,50 50,0" />
+ </pattern>
+  </defs>
+  <rect  x="0" y="0" width="500" height="599" fill="url(#first)"></rect>
+  <rect  x="0" y="0" width="500" height="500" fill="url(second)"></rect>
+  <circle cx="250" cy="225" r="0"></circle>
+-->
+  <defs>
+    <style type="text/css"><![CDATA[
+      @-webkit-keyframes stroke_forward {
+        100% { stroke-dashoffset: -140;  } }
+      @keyframes stroke_forward {
+        100% { stroke-dashoffset: -140; }
+      }
+      path#move_stroke {
+        animation-name: stroke_forward;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+  ]]></style>
+  </defs>
+  <defs>
+    <filter id="box_shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"></feGaussianBlur>
+      <feOffset in="blur" dx="4" dy="4" result="offsetBlur"></feOffset>
+      <feMerge>
+        <feMergeNode in="offsetBlur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="10" y="690" fill="#000" font-size="10">Creator &amp; Designer: Shakiba Moshiri 2019 All Right Reserved</text>
+</svg>
