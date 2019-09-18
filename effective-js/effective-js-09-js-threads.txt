@@ -1,0 +1,31 @@
+درباره اینکه این نخ ها دقیقا چیکار میکن توی ستک اور فلو پرسیدم و کسی جوابی نداه
+https://stackoverflow.com/questions/57959772/what-are-js-watchdog-js-helper-timer-threads-inside-a-web-browsers-process
+چیزی که میگم بهترین حدسم هست ممکنه اشتباه باشه
+می دونید درست رو بگید
+
+JS Watchdog
+در کل حالتی از نگهبانی هست که چک میکنه ایا مرور در حالت پایداری هست یا نه
+https://en.wikipedia.org/wiki/Watchdog_timer
+برای جلو گیری از کرش کردن
+مثلا
+infinite loop
+too much call stack using recursive functions
+جلوی اینها رو میگره
+
+JS Helper(s)
+نخ اصلی و نخ کمکی که با هم
+Main Tasks
+و
+Micro Tasks
+رو مدیریت میکنن
+
+Timer
+نخی که زمان بندی رو مدریت میکنه
+Macro Tasks
+
+اینکه
+Main Task
+Micro Task
+Macro Task
+چی هست رو جلو تر متوجه میشم
+بریم برای پست بعدی
