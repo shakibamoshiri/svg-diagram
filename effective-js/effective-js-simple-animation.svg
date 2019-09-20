@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" font-family="Montserrat">
+  <rect x="0" y="0" width="100" height="100" fill="#fd0"></rect>
+  
+  <g font-weight="bold" font-size="25" fill="#00c800" text-anchor="middle">
+    <path id="handle" d="M50,50  h35" stroke="#000" stroke-width="2" fill="none" marker-end="url(#arrowhead)" marker-start="url(#bullet)"></path>
+  </g>  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="bullet" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>  <defs>
+    <style type="text/css"><![CDATA[
+      @-webkit-keyframes rotate {
+        100% { transform: rotate(360deg) } }
+      @keyframes rotate {
+        100% { transform: rotate(360deg) }
+      }
+      path#handle {
+        transform-origin: 50px 50px;
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+  ]]></style>
+  </defs>
+  
+</svg>
