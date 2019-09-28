@@ -1,0 +1,50 @@
+اگه این اسم ها براتون اشناست
+register an event
+listen for events
+handling events
+error handling for event
+event loop
+event queue
+asynchronous programming
+etc
+
+به چه معماری طرفیم؟
+Event Driven Architecture
+
+و یه مثال خوب از این معماری چیه؟
+Web Browsers
+e.g. Firefox, Chrome, Opera, etc
+
+چی مرورگر ها رو دانامیک میکنه؟ جاواسکریپت
+پس جاواسکریپت با چی سر و کار داره؟
+Event based environment
+
+از خوبی های این معماری؟
+Scalability
+Flexibility
+
+از نقاط ضعفش؟
+Exception Handling
+Asynchronous Synchronization
+
+وقتی از ای جکس استفاده میکنیم به چه صورت عمل میکنه؟
+Asynchronous
+چون با شبکه طرفیم و خارج از محیط جی اس اتفاق میافته ای جکس مون اگه مشکلی پیش بیاد ممکنه به چی بخوریم؟
+Exception
+
+برای اینکه چند ایسینک اپریشن رو سینک کنیم به چه احتیاج داریم؟
+Nested Function Call
+
+به تعداد زیادی فانکشن تو در تو که به هم وابسته ن چی میکیم؟
+Pyramid of doom or Callback Hell
+
+همه ای این مشکلات رو کجا داریم؟ با جاواسکریپت
+و دیگه در سال 1994 نیستیم
+
+و راه حل پشنهادی چیه؟
+Promises
+
+more:
+http://jsfun.ir/modern-javascript
+
+بریم برای پست بعدی ببینیم چی هستن
