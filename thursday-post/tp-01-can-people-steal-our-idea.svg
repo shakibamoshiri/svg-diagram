@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Vazir">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title" text-anchor="middle" font-weight="bold">
+    <rect x="0" y="35" width="500" height="40" fill="#000"></rect>
+    <text x="259" y="65" font-size="25" fill="#fff">پست متفرقه مخصوص پنجشنبه ها</text>
+  </g>
+  
+  <g transform="translate(0,140)" font-size="40" fill="#000" text-anchor="middle" font-weight="bold">
+    <text x="250" y="0"  >آیا دیگران می توانند</text>
+    <text x="250" y="50" >ایده های ما رو بدزدند؟</text>
+  </g>
+  
+  <g transform="translate(0,270)" font-size="25" fill="#fff" text-anchor="middle" font-weight="bold">
+    <text x="250" y="0" fill="#000" >نیازها؟</text>
+    <text x="250" y="50" >ایده پردازی به کمک ذهن</text>
+    <text x="250" y="100" >پیاده سازی به کمک مهارت</text>
+  </g>
+  
+  <g transform="translate(0,450)" font-size="25" fill="#fff" text-anchor="middle" font-weight="bold">
+    <text x="250" y="0" fill="#000" >فازهای لازم؟</text>
+    <text x="250" y="50" >ایده خام اولیه</text>
+    <text x="250" y="100" >ایده پیاده سازی شده که کار میکنه</text>
+    <text x="250" y="150" >ایده کامل شده قابل استفاده برای دیگران</text>
+  </g>
+
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="bullet" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  
+  <text x="430" y="645" font-size="12"  fill="#FFF" style="font-weight: bold">شکیبا مشیری</text>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140 q0" marker-start="url(#diamond)" marker-end="url(#arrowhead)"></path>-->
+</svg>
