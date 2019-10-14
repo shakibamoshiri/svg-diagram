@@ -12,23 +12,23 @@
   <g transform="translate(-100,100)" font-family="Ubuntu" font-size="25" fill="#c800c8" text-anchor="middle" font-weight="bold">
     <circle r="70" cx="250" cy="150"></circle>
     <text x="250" y="160" fill="#fff" >websites</text>
-    <circle r="75" cx="250" cy="150"fill="none" stroke="#c800c8" stroke-width="3"></circle>    
+    <circle r="75" cx="250" cy="150" fill="none" stroke="#c800c8" stroke-width="3"></circle>    
   </g>
   <g transform="translate(100,100)" font-family="Ubuntu" font-size="25" fill="#c800c8" text-anchor="middle" font-weight="bold">
     <circle r="70" cx="250" cy="150"></circle>
     <text x="250" y="160" fill="#fff" >people</text>
-    <circle r="75" cx="250" cy="150"fill="none" stroke="#c800c8" stroke-width="3"></circle>
+    <circle r="75" cx="250" cy="150" fill="none" stroke="#c800c8" stroke-width="3"></circle>
     
   </g>
   <g transform="translate(-100,300)" font-family="Ubuntu" font-size="25" fill="#c800c8" text-anchor="middle" font-weight="bold">
     <circle r="70" cx="250" cy="150"></circle>
     <text x="250" y="160" fill="#fff" >confs</text>
-    <circle r="75" cx="250" cy="150"fill="none" stroke="#c800c7" stroke-width="3"></circle>
+    <circle r="75" cx="250" cy="150" fill="none" stroke="#c800c7" stroke-width="3"></circle>
   </g>
   <g transform="translate(100,300)" font-family="Ubuntu" font-size="25" fill="#c800c8" text-anchor="middle" font-weight="bold">
     <circle r="70" cx="250" cy="150"></circle>
     <text x="250" y="160" fill="#fff" >courses</text>
-    <circle r="75" cx="250" cy="150"fill="none" stroke="#c800c7" stroke-width="3"></circle>
+    <circle r="75" cx="250" cy="150" fill="none" stroke="#c800c7" stroke-width="3"></circle>
   </g>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="7" 
