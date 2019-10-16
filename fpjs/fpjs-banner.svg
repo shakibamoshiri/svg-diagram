@@ -24,10 +24,11 @@
     <rect x="0" y="0" width="500" height="40" fill="#000"></rect>
     <text x="250" y="30" fill="#fff"  letter-spacing="3">JavaScript</text>
   </g>
-  <g transform="translate(0,480)" font-size="30" fill="#000" text-anchor="middle" font-weight="bold">
-    <text x="250" y="0" fill="#fff">follow new series</text>
-    <text x="250" y="50" fill="#fff">step by step guide</text>
-    <text x="250" y="100" fill="#000" font-size="15">start from: Saturday 19th, October, 2019</text>
+  <g transform="translate(0,480)" font-size="25" fill="#000" text-anchor="middle" font-weight="bold">
+    <text x="250" y="0" fill="#fff" font-size="40">follow new series</text>
+    <text x="250" y="50" fill="#fff" >prerequisite for advanced</text>
+    <text x="250" y="100" fill="#fff" >JS, Node, and React</text>
+<!--    <text x="250" y="100" fill="#000" font-size="15">start from: Saturday 19th, October, 2019</text>-->
   </g>
   
   
