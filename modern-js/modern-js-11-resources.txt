@@ -1,0 +1,47 @@
+اخرین پست از سری جاواسکریپت مدرن و معرفی چند منبع
+اینها رو دنبال میکنم
+اگه منبع خوبی میشناسید بگید تا اضافه کنم
+
+websites
+
+Mozilla Developer Network JS guide
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+
+javascript.info
+https://javascript.info/
+
+
+people
+Kyle Simpson full time JS teacher
+Author of You Do Not Know JS
+(video from youtube)
+https://www.youtube.com/watch?v=Qg1SvpIau6U&t=1312s
+
+Jafar Husain UI leader at Netflix
+(video from youtube)
+https://www.youtube.com/watch?v=DqMFX91ToLw
+
+conferences & talks
+JSConf
+Main JavaScript conference
+https://www.youtube.com/user/jsconfeu?pbjreload=10
+
+Netflix UI Engineering
+https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA/videos?pbjreload=10
+
+courses
+بین همه ی سایت های انلاین یدومی دوره های بهتری برای جی اس داره
+https://www.udemy.com/
+
+فرانت اند مستر هم تخصصی برای قرانت هست
+https://frontendmasters.com/
+
+ممنون از دوستانی که همراهی کردن
+نظر دادن
+انتقاد کردن
+لینک کل این سری در کامنت هست
+
+در ادامه وارد فانکشنال پروگرمینگ با جی اس میشیم
+functional programming with JavaScript
+
+بریم برای سری جدید
