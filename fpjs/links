@@ -1,7 +1,7 @@
 Blog
 http://jsfun.ir/
 
-Topic
+Topics
 http://jsfun.ir/functional-programming-javascript
 
 Preface
@@ -19,8 +19,14 @@ http://jsfun.ir/functional-programming-javascript/declarative-API-imperative-API
 Functional Programming Learning Curve
 http://jsfun.ir/functional-programming-javascript/functional-programming-learning-curve
 
-five crucial fp concepts
+Five crucial fp concepts
 http://jsfun.ir/functional-programming-javascript/five-crucial-fp-concepts
 
 Function as first class citizen
 http://jsfun.ir/functional-programming-javascript/function-as-first-class-citizen
+
+Closure
+http://jsfun.ir/functional-programming-javascript/closure
+
+Currying
+http://jsfun.ir/functional-programming-javascript/currying
