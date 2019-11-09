@@ -1,0 +1,45 @@
+با تبدیل فانکشن هامون به کری فانکشن
+curry function: some consecutive nested unary functions
+و قابلیت
+partial application
+می تونیم این فانکشن ها رو بخش بخش استفاده کنیم
+و می تونیم برای متصل کردن یه سری از این بخش ها اون ها رو با هم ترکیب کنیم
+همون
+pipeline architecture
+که اول بحث شو کردیم
+
+به ترکیب از راست به چپ میگیم
+compose
+به ترکیب از چپ به راست میگیم
+pipe
+
+هنگام استفاده از
+compose
+یا
+pipe
+دیگه ساید افکت نداریم
+free side-effect morphism
+چرا؟
+چون فانکشن ها مون پیور هستن
+pure functions
+
+در ادامه متوجه میشم
+pure function
+impure function
+immutable data
+mutable data
+side-effect
+recursive function call (= recursion)
+Higher Order Function
+چی هستن
+
+اگر فرصت شد
+Category Theory
+Functor
+Monad
+Morphism
+Homemorphic 
+Polymorphic 
+و سری چیزی های دیگه رو هم مرور میکنیم
+
+یه مثال عملی و ساده رو هم رو بلاگ اوردم
