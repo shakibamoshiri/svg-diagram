@@ -1,0 +1,55 @@
+عنصر دومی که در کنار پیور فانکش ها قرار میگیره
+immutable data
+هست به معنی داده ای که قابل تغییر نیست بعد از اینک تعریف شد
+
+یعنی تعریف و اساین منت همزمان انجام میشه
+declaration and assignment at the same time
+یعنی
+read-only data or not modifiable
+
+مقابلش
+mutable data
+رو داریم که تعریف میشه
+و مقدار اون همزمان اعمال میشه
+یاد بعدا اعمال میشه
+اما این مقدا قابل تغییر هست
+حتا در زبان های داینامیک مثل خود جاواسکریپت
+نوع هم تغییر میکنه مثلا
+اعلان و اعمال
+let language = "JS";
+تغییر مقدار
+language = "PHP";
+تغییر نوع
+language = 2019;
+
+چیزی که باید بهش توجه کنیم
+تعریف کردن داده ها مون از نوع
+immutable
+هست و این موضوع انقد مهم هست که زبان راست
+rust
+در حال دیفالت متغییر که تعریف میشه قابل تغییر نیست
+
+پس در کنار
+pure function
+بحث
+immutable data
+رو داریم و در کنار
+impure function
+بحث
+mutable data
+رو داریم
+
+بیشترین کدی که میزیم متامیل باشه به
+pure function
+immutable data
+
+کمترین ش با
+impure function
+mutable data
+
+و ترکیب
+pure function
+immutable data
+چیزی رو به ما میده به نام
+side effect free morphism
+که موضوع پست بعدی خواهد بود
