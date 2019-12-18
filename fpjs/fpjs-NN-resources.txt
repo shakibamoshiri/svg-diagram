@@ -1,0 +1,39 @@
+منابع ی که برای سری پست های مربوط به اف پی استفاده کردم
+البته یه سری از بخث ها دیگه فرصت نشد مثل
+Functor
+Monad
+چون وقت آزادم خیلی کم شده
+
+لطفا منبع خوبی سراغ دارید در کامنت بذارید که توی بلاگ بذارم
+
+individual course
+functional-programming-beginners-javascript by James Moore
+
+individual course
+video course of the book by Luis Atencio
+functional-programming-javascript-video
+
+packt course
+implementing-testing-apps-functional-javascript by Zsolt Nagy
+
+linkedin course
+learning-functional-programming-javascript by Shaun Wassell
+
+packt course
+mastering-web-app-functional-javascript by Michael Rosata
+
+front-end master course
+functional-light-javascript by Kyle Simpson
+
+individual youtube course
+Ramda JS Tutorial by Christopher Okhravi
+
+library
+Ramda.js
+
+Document
+Ramda.js document
+and
+many pages in wikipedia.org
+
+موفق باشید
