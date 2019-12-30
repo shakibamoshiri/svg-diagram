@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title" text-anchor="middle" font-weight="bold" font-family="Vazir">
+    <rect x="0" y="35" width="500" height="45" fill="#000"></rect>
+    <text x="259" y="65" font-size="24" fill="#fff">چه طور در همه مصاحبه هایمان رد بشیم؟</text>
+  </g>
+  
+  <g transform="translate(0,170)" font-family="Ubuntu" font-size="30" fill="#fff" text-anchor="middle" font-weight="bold" >
+    <text x="250" y="0" xml:space="preserve">Be <tspan fill="#f80">creative</tspan> and                 </text>
+    <text x="250" y="50" >not a follower</text>
+    <text x="250" y="15" fill="#f80" transform="scale(-1,1) rotate(180,0,0) translate(120,0)" >different</text>
+  </g>
+
+  <g transform="translate(0,300)" font-family="Ubuntu" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold" >
+    <text x="100" y="0" >team / company</text>
+    <text x="370" y="0" >you (bad)</text>
+    <rect width="50" height="50" x="350" y="20" transform="rotate(45,370,40)" fill="#000"></rect>
+    <rect width="50" height="50" x="75" y="20"></rect>
+    <rect width="50" height="50" x="75" y="90"></rect>
+    <rect width="50" height="50" x="75" y="160"></rect>
+    <rect width="50" height="50" x="75" y="230"></rect>
+    <rect width="50" height="50" x="350" y="230"></rect>
+    <g id="good" font-size="20">
+      <text x="400" y="210" >others (good)</text>
+      <path fill="none" stroke="#fff" stroke-width="3" d="M150,56 l170,130" marker-start="url(#bullet)" marker-end="url(#arrow)"></path>
+      <path fill="none" stroke="#fff" stroke-width="3" d="M150,116 l160,90" marker-start="url(#bullet)" marker-end="url(#arrow)"></path>
+      <path fill="none" stroke="#fff" stroke-width="3" d="M150,190 l160,40" marker-start="url(#bullet)" marker-end="url(#arrow)"></path>
+      <path fill="none" stroke="#fff" stroke-width="3" d="M150,256 h170" marker-start="url(#bullet)" marker-end="url(#arrow)"></path>
+    </g>
+  </g>
+
+  <defs>
+    <g id="check_mark" transform="translate(0,0)" font-weight="bold" font-size="25" fill="#000" text-anchor="middle">
+        <path fill="none" stroke="#00C800" stroke-width="3" d="M5,10 l10,10 l15,-25"></path>
+    </g>
+    <marker id="arrow" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="bullet" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+    
+  <g font-size="10"  fill="#000" font-weight="bold">
+    <text x="10" y="645" >how to be rejected in all our interviews by Shakiba Moshiri, 2019-12-25</text>
+  </g>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140" marker-start="url(#bullet)" marker-end="url(#arrow)"></path>-->
+</svg>
