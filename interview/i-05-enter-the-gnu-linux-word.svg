@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="650" font-family="Montserrat">
+  <rect x="0" y="0" width="500" height="650" fill="#0cf"></rect>
+
+  <g class="title" text-anchor="middle" font-weight="bold" font-family="Vazir">
+    <rect x="0" y="35" width="500" height="45" fill="#000"></rect>
+    <text x="259" y="65" font-size="24" fill="#fff">چه طور در همه مصاحبه هایمان رد بشیم؟</text>
+  </g>
+  
+  <g transform="translate(0,250)" font-family="Ubuntu" font-size="25" fill="#fff" text-anchor="middle" font-weight="bold">
+    <text x="250" y="0" xml:space="preserve">shutdown /f /p</text>
+    <text x="250" y="50" xml:space="preserve" >Leave the <tspan fill="#000">Windows</tspan> world</text>
+    <path fill="none" stroke="#000" stroke-width="3" d="M90,90 h310" ></path>  
+    <text x="250" y="150" xml:space="preserve" >Enter the <tspan fill="#000">GNU/Linux</tspan> world</text>
+    <text x="250" y="200" xml:space="preserve" >kernel /boot/vmlinuz</text>
+  </g>
+
+  <defs>
+    <g id="check_mark" transform="translate(0,0)" font-weight="bold" font-size="25" fill="#000" text-anchor="middle">
+        <path fill="none" stroke="#00C800" stroke-width="3" d="M5,10 l10,10 l15,-25"></path>
+    </g>
+    <marker id="arrow" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon fill="#fff" points="0 0, 5 3.5, 0 7" />
+    </marker>
+    <marker id="bullet" markerWidth="12" markerHeight="12" refX="6" refY="6" >
+      <circle fill="#fff" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
+    </marker>
+  </defs>
+    
+  <g font-size="10"  fill="#000" font-weight="bold">
+    <text x="10" y="645" >how to be rejected in all our interviews by Shakiba Moshiri, 2020-01-01</text>
+  </g>
+<!--<path fill="none" stroke="#000" stroke-width="3" d="M60,50 v140" marker-start="url(#bullet)" marker-end="url(#arrow)"></path>-->
+<!--    <text x="250" y="15" fill="#f80" transform="scale(-1,1) rotate(180,0,0) translate(120,0)" >different</text>-->
+</svg>
